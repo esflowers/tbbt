@@ -1,1 +1,32 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: 'Anton';
+    src: url('/fonts/Anton.ttf');
+}
+
+@font-face {
+    font-family: 'Darker Grotesque';
+    src: url('/fonts/DarkerGrotesque.ttf');
+}
+
+@theme {
+    --font-display: Impact, 'Anton', sans-serif;
+    --font-sans: 'Darker Grotesque', sans-serif;
+
+    --color-base-50: #fafafa;
+    --color-base-100: #fff7f3;
+    --color-base-200: #eee7e3;
+    --color-base-300: #ddd7d3;
+    --color-base-400: #aaa7a3;
+    --color-base-500: #777773;
+    --color-base-600: #555753;
+    --color-base-700: #444743;
+    --color-base-800: #222723;
+    --color-base-900: #111713;
+    --color-base-950: #000703;
+}
+
+* {
+    scrollbar-width: none;
+}
