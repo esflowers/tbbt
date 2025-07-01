@@ -1,17 +1,46 @@
 ---
 import '../styles/global.css';
+import { title, preview, description, site } from '../data/data';
+import Lines from '../components/Lines.astro';
+
+interface Props {
+	page?: string
+}
+
+const { page = title } = Astro.props as Props;
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width" />
 	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 	<meta name="generator" content={Astro.generator} />
-	<title>The Big Bang Theory. Sitcom.</title>
+	<title>{page}</title>
+	<meta name="title" content={page} />
+	<meta name="description" content={description} />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content={site.link} />
+	<meta property="og:title" content={page} />
+	<meta property="og:description" content={description} />
+	<meta property="og:image" content={preview} />
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:url" content={site.link} />
+	<meta property="twitter:title" content={page} />
+	<meta property="twitter:description" content={description} />
+	<meta property="twitter:image" content={preview} />
 </head>
-<body>
-	<slot />
+<body class="h-screen p-6 sm:p-10 md:px-14 lg:px-16 lg:py-12 xl:px-20 2xl:px-24 grid sm:grid-cols-2 gap-6 sm:gap-4 lg:gap-6 text-white bg-base-950 selection:text-base-950 selection:bg-base-200/80">
+	<header>
+		<slot name="header" />
+	</header>
+	<article>
+		<slot name="article" />
+	</article>
+	<main>
+		<slot />
+	</main>
+	<Lines />
 </body>
 </html>

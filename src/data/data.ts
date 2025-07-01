@@ -1,6 +1,6 @@
 import type { Link } from "../types"
 
-export const name = 'the BiG Bang Theory'
+export const name = 'the BiG BANG THEORY'
 export const tagline = 'Sitcom estadounidense'
 export const title= 'The Big Bang Theory. Sitcom. Serie en Español Latino.'
 export const description = 'The Big Bang Theory es una comedia de situación estadounidense creada por Chuck Lorre y Bill Prady, quienes se desempeñaron como productores ejecutivos y escritores principales de la serie, junto con Steven Molaro.'
