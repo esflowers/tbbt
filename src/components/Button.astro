@@ -6,9 +6,10 @@ interface Props {
     target?: '_self' | '_blank' | '_parent' | '_top'
     title?: string
     className?: string
+    classText?: string
 }
 
-const { text, link, size = 'md', target = '_self', title, className } = Astro.props as Props;
+const { text, link, size = 'md', target = '_self', title, className, classText } = Astro.props as Props;
 ---
 
 <a href={link} target={target} aria-labelledby={title} class:list={[
@@ -20,6 +21,6 @@ const { text, link, size = 'md', target = '_self', title, className } = Astro.pr
     className
 ]}>
     <slot name="l" />
-    <span class={`${size === 'md' ? 'pt-1.5' : ''}`}>{text}</span>
+    <span class={classText}>{text}</span>
     <slot name="r" />
 </a>
