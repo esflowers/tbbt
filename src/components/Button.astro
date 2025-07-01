@@ -5,18 +5,21 @@ interface Props {
     size?: 'sm' | 'md'
     target?: '_self' | '_blank' | '_parent' | '_top'
     title?: string
+    className?: string
 }
 
-const { text, link, size = 'md', target = '_self', title } = Astro.props as Props;
-
-const sizeClass = {
-    sm: 'text-base md:text-sm',
-    md: 'text-xl md:text-lg'
-}
+const { text, link, size = 'md', target = '_self', title, className } = Astro.props as Props;
 ---
 
-<a href={link} target={target} aria-labelledby={title} class={`w-fit h-fit font-medium ${sizeClass[size]} text-base-300 group flex items-center gap-1.5 transition duration-200 hover:text-white`}>
+<a href={link} target={target} aria-labelledby={title} class:list={[
+    'w-fit h-fit group flex items-center gap-1.5 transition duration-200 hover:text-white select-none',
+    {
+        'font-medium text-xs text-base-400 tracking-wide': size === 'sm',
+        'md:text-sm text-base-300': size === 'md'
+    },
+    className
+]}>
     <slot name="l" />
-    {text}
+    <span class={`${size === 'md' ? 'pt-1.5' : ''}`}>{text}</span>
     <slot name="r" />
 </a>
