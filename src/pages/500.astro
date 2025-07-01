@@ -3,8 +3,9 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout page="Error 500">
-    <div slot="header" class="space-y-2.5">
-		<h1 class="font-display uppercase text-pretty text-6xl md:text-7xl lg:text-8xl select-none">Error 500</h1>
-		<h2 class="text-xl text-base-300">Problema interno del servidor</h2>
+    <h1 slot="header" class="font-display font-bold text-pretty text-6xl lg:text-7xl 2xl:text-8xl select-none">Error <span class="text-transparent bg-clip-text bg-gradient-to-br from-red-950 via-red-700 to-red-500">500</span></h1>
+
+	<div slot="article">
+		<h2 class="font-medium text-sm tracking-wide text-base-300">Problema interno del servidor</h2>
 	</div>
 </Layout>
