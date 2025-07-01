@@ -31,7 +31,7 @@ export const wiki: Link = {
 }
 
 export const provider: Link = {
-    title: 'proveedor',
+    title: 'Proveedor',
     link: 'https://thebigbangtheorytvlatinoo.blogspot.com/',
     label: 'https://facebook.com/chinotvserie/'
 }
