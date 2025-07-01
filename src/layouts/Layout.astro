@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css';
 import { title, preview, description, site } from '../data/data';
-import Lines from '../components/Lines.astro';
+import Header from './Header.astro';
 
 interface Props {
 	page?: string
@@ -30,17 +30,24 @@ const { page = title } = Astro.props as Props;
 	<meta property="twitter:title" content={page} />
 	<meta property="twitter:description" content={description} />
 	<meta property="twitter:image" content={preview} />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
-<body class="h-screen p-6 sm:p-10 md:px-14 lg:px-16 lg:py-12 xl:px-20 2xl:px-24 grid sm:grid-cols-2 gap-6 sm:gap-4 lg:gap-6 text-white bg-base-950 selection:text-base-950 selection:bg-base-200/80">
-	<header>
-		<slot name="header" />
-	</header>
-	<article>
-		<slot name="article" />
-	</article>
-	<main>
+<body class="p-6 sm:p-10 md:px-14 lg:px-16 lg:py-12 xl:px-20 2xl:px-24 text-white bg-base-950 selection:text-base-950 selection:bg-base-200/80">	
+	<Header />
+
+	<main class="grid md:grid-cols-2 gap-12 md:gap-16 xl:gap-20">
+		<section class="space-y-4">
+			<header>
+				<slot name="header" />
+			</header>
+			<hr class="mb-8 text-base-800">
+			<article>
+				<slot name="article" />
+			</article>
+		</section>
 		<slot />
 	</main>
-	<Lines />
 </body>
 </html>

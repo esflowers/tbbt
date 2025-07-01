@@ -43,5 +43,5 @@ export const serie = {
     episodes: 279,
     start: '24.09.2007',
     end: '16.05.2019',
-    site: 'https://www.cbs.com/shows/big_bang_theory'
+    site: 'cbs.com/shows/big_bang_theory'
 }
