@@ -1,0 +1,14 @@
+---
+interface Props {
+    title: string,
+    text: string | number
+}
+
+const { title, text } = Astro.props as Props;
+---
+
+<div class="text-nowrap flex items-baseline justify-between gap-3">
+    <hgroup>{title}</hgroup>
+    <div class="content-none w-full h-ful border-b border-dashed border-base-800"></div>
+    <span class="text-end">{text}</span>
+</div>
