@@ -1,7 +1,38 @@
 ---
+import { name, tagline, description, serie } from '../data/data';
+import { seasons } from '../data/seasons';
 import Layout from '../layouts/Layout.astro';
+import Button from '../components/Button.astro';
+import InfoLine from '../components/InfoLine.astro';
+import IconChevron from '../components/icons/IconChevron.astro';
 ---
 
 <Layout>
-	<h1>The Big Bang Theory. Sitcom.</h1>
+	<h1 slot="header" class="font-display font-bold text-pretty text-6xl lg:text-7xl 2xl:text-8xl select-none">the BiG<br><span class="text-transparent bg-clip-text bg-gradient-to-br from-red-950 via-red-700 to-red-500">BANG</span> THEORY</h1>
+
+	<div slot="article" class="space-y-2">
+		<h2 class="font-medium text-sm tracking-wide text-base-300">{tagline}</h2>
+		<p class="text-sm text-pretty tracking-wider text-base-400">{description}</p>
+		<p class="text-sm text-pretty tracking-wider text-base-400">La serie comienza con la llegada de Penny, aspirante a actriz, al apartamento vecino del que comparten Sheldon y Leonard, dos físicos que trabajan en el Instituto Tecnológico de California (Caltech). Leonard se enamora desde el primer momento de Penny.</p>
+	</div>
+
+	<div class="space-y-8">
+		<div class="space-y-1.5 text-xs text-base-400">
+			<InfoLine title='Creadores' text={serie.creator} />
+			<InfoLine title='Género' text={serie.genre} />
+			<InfoLine title='Temporadas' text={serie.seasons} />
+			<InfoLine title='Episodios' text={serie.episodes} />
+			<InfoLine title='Sitio oficial' text={serie.site} />
+			<InfoLine title='Estreno' text={serie.start} />
+			<InfoLine title='Final' text={serie.end} />
+		</div>
+
+		<menu class="w-full columns-2 gap-x-4">
+			{seasons.map(item => (
+				<Button text={item.title} link={item.link} title={`${item.title}, ${item.start} - ${name}`} classText='pt-1.5'>
+					<IconChevron slot='l' size='13' className='stroke-base-500 transition duration-200 group-hover:translate-x-0.5 group-hover:stroke-white group-hover:scale-x-150 group-hover:scale-y-90' />
+				</Button>
+			))}
+		</menu>
+	</div>
 </Layout>

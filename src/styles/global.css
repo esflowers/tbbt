@@ -1,18 +1,18 @@
 @import "tailwindcss";
 
 @font-face {
-    font-family: 'Anton';
-    src: url('/fonts/Anton.ttf');
+    font-family: 'Thunder';
+    src: url('/fonts/Thunder.ttf');
 }
 
 @font-face {
-    font-family: 'Darker Grotesque';
-    src: url('/fonts/DarkerGrotesque.ttf');
+    font-family: 'Heming';
+    src: url('/fonts/Heming.ttf');
 }
 
 @theme {
-    --font-display: Impact, 'Anton', sans-serif;
-    --font-sans: 'Darker Grotesque', sans-serif;
+    --font-display: 'Thunder', sans-serif;
+    --font-sans: 'Heming', sans-serif;
 
     --color-base-50: #fafafa;
     --color-base-100: #fff7f3;
@@ -29,4 +29,20 @@
 
 * {
     scrollbar-width: none;
+}
+
+thead tr {
+    @apply border-b border-base-800
+}
+
+tbody tr td {
+    @apply pt-3 pb-1.5
+}
+
+tr td:not(:last-child) {
+    @apply pr-8
+}
+
+thead td {
+    @apply py-2 font-medium text-xs uppercase tracking-wide text-base-400
 }
