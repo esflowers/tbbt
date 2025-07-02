@@ -13,103 +13,103 @@ export const seasons: Season[] = [
                 number: 1,
                 title: 'Piloto',
                 release: '24.9.07',
-                link: ''
+                link: 'https://mega.nz/embed/hjRFFYrS#hB635qZNeGseA8Q42BhIk0Wd3NOax-5fgK9t9gIQ5bs'
             },
             {
                 number: 2,
                 title: 'La hipótesis del gran cereal',
                 release: '1.10.07',
-                link: ''
+                link: 'https://mega.nz/embed/l3YDnbpJ#p9d2XuYtabHCI-xyz9n4GSAqmyeUdD5BKu7NnAy-pEc'
             },
             {
                 number: 3,
                 title: 'El corolario de Botas Peludas',
                 release: '8.10.07',
-                link: ''
+                link: 'https://mega.nz/embed/FiA2CLpY#73IAlvPcrnmFN6bbZoPtadve8fRTRgmRrsyJqO9CHSY'
             },
             {
                 number: 4,
                 title: 'El efecto del pez luminoso',
                 release: '15.10.07',
-                link: ''
+                link: 'https://mega.nz/embed/sqw0HS5a#t-ze_eNpviinK9xPYIqPgQtbzQZWzYZa7SW4cR8OdKc'
             },
             {
                 number: 5,
                 title: 'El postulado de la hamburguesa',
                 release: '22.10.07',
-                link: ''
+                link: 'https://mega.nz/embed/9q4H3RIK#d1TkbQSSqnja9X_yYvNaR8eNNVOZAEJVWFnB1il-69c'
             },
             {
                 number: 6,
                 title: 'El paradigma de la Tierra Media',
                 release: '29.10.07',
-                link: ''
+                link: 'https://mega.nz/embed/JmZwFIAC#gxcub_3N2y9NjWm8wfht261nn1eFRWwaOXxLA21mBCM'
             },
             {
                 number: 7,
                 title: 'La paradoja del Wan-Tun',
                 release: '5.11.07',
-                link: ''
+                link: 'https://mega.nz/embed/grYCkDaK#xThVDWtIlQ6MhHSTbk393SiULQMHI-rAjF6MkAkTMYw'
             },
             {
                 number: 8,
                 title: 'El experimento del Grasshopper',
                 release: '12.11.07',
-                link: ''
+                link: 'https://mega.nz/embed/1u5j1CxZ#NtHey9MdnIFHdG3vhemj29Ec-NIzkAuV684hF6Y-RmI'
             },
             {
                 number: 9,
                 title: 'La polarización Cooper-Hofstadter',
                 release: '17.3.08',
-                link: ''
+                link: 'https://mega.nz/embed/MqB2XZzY#qTubS0rxFjVYOgvIZCNjh9rGwh3a8hNBTzlQidfmuXg'
             },
             {
                 number: 10,
                 title: 'La resultante de Loobenfeld',
                 release: '24.3.08',
-                link: ''
+                link: 'https://mega.nz/embed/5jQ2mYTL#PL7JlMkFHHVJm5tRtwSj4Rvib2--b02b2JoIUqzVJQE'
             },
             {
                 number: 11,
                 title: 'La anomalía de la masa de tortitas',
                 release: '31.3.08',
-                link: ''
+                link: 'https://mega.nz/embed/4qxEwboI#VYs_VTqOV50qKAtyQFZQGcv6YRuF2WiGAIrJP-A6IDg'
             },
             {
                 number: 12,
                 title: 'La dualidad de Jerusalén',
                 release: '14.4.08',
-                link: ''
+                link: 'https://mega.nz/embed/kmgSTTQZ#kYy9U5GO_u39_3vnwz37Rzazk4X8QRCa3DPNEGaw3Io'
             },
             {
                 number: 13,
                 title: 'La conjetura del Bat-tarro',
                 release: '21.4.08',
-                link: ''
+                link: 'https://mega.nz/embed/Qy4mWIoA#p3bx7iT3Qqn5CIrWz5WHKIBRBDyxmHJ-KZyWg-JLOcI'
             },
             {
                 number: 14,
                 title: 'La aniquilación del paraíso frikinal',
                 release: '26.4.08',
-                link: ''
+                link: 'https://mega.nz/embed/M6pCjAoC#3xsfXFM2CbnBiCEuz042onbt8gdSjCwcGH-cD78xqMM'
             },
             {
                 number: 15,
                 title: 'La indeterminación de la chuleta de cerdo',
                 release: '17.3.08',
-                link: ''
+                link: 'https://mega.nz/embed/Yy4CRTJR#UiA56kM8_VLlGthIvoo3n1BXMlcs0TYHCIkVmhG0LgA'
             },
             {
                 number: 16,
                 title: 'La reacción del cacahuate',
                 release: '12.5.08',
-                link: ''
+                link: 'https://mega.nz/embed/Bz4jQR6b#yccR7eozEi5uEQsXc_2cpPEQdf-N3EK8OVoLfFoiYB0'
             },
             {
                 number: 17,
                 title: 'El factor mandarina',
                 release: '19.5.08',
-                link: ''
+                link: 'https://mega.nz/embed/hmZWEJTA#L3mI3G5VXMiSOl2eYWyVupSP3pRUtH9udj9Hq4l00Lw'
             },
         ]
     },
@@ -120,7 +120,7 @@ export const seasons: Season[] = [
         start: '22.9.08',
         end: '11.5.09',
         nEpisodes: 23,
-        episodes: [
+        episodes: [/*
             {
                 number: 18,
                 title: 'El Paradigma del Pescado Malo',
@@ -259,7 +259,7 @@ export const seasons: Season[] = [
                 release: '11.5.09',
                 link: ''
             },
-        ]
+        */]
     },
     {
         number: 3,
