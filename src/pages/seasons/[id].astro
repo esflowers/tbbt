@@ -16,10 +16,10 @@ const { season } = Astro.props;
 ---
 
 <Layout page={`${season.title} - ${name}`}>
-    <h1 slot="header" class="font-display font-bold text-pretty text-6xl lg:text-7xl 2xl:text-8xl select-none">Temporada <span class="text-transparent bg-clip-text bg-gradient-to-br from-red-950 via-red-700 to-red-500">{season.number}</span></h1>
+    <h1 slot="header" class="font-display font-bold text-pretty text-center text-6xl lg:text-7xl 2xl:text-8xl text-base-950 tracking-tight select-none">Temporada <span class="text-transparent bg-clip-text bg-gradient-to-br from-red-950 via-red-700 to-red-500">{season.number}</span></h1>
 
 	<div slot="article" class="space-y-2">
-		<div class="space-y-1.5 text-xs text-base-400">
+		<div class="space-y-1.5 text-xs text-base-800">
 			<InfoLine title='Episodios' text={season.nEpisodes} />
 			<InfoLine title='Inicio' text={season.start} />
 			<InfoLine title='Fin' text={season.end} />
