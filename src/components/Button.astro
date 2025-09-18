@@ -13,10 +13,10 @@ const { text, link, size = 'md', target = '_self', title, className, classText }
 ---
 
 <a href={link} target={target} aria-labelledby={title} class:list={[
-    'w-fit h-fit group flex items-center gap-1.5 transition duration-200 hover:text-white select-none',
+    'w-fit h-fit group flex items-center gap-1.5 transition duration-200 font-medium select-none',
     {
-        'font-medium text-xs text-base-400 tracking-wide': size === 'sm',
-        'md:text-sm text-base-300': size === 'md'
+        'text-xs 2xl:text-sm text-base-300 hover:text-white tracking-tighter': size === 'sm',
+        'md:text-sm text-base-900 hover:text-base-950': size === 'md'
     },
     className
 ]}>
