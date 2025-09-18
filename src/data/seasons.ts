@@ -4,6 +4,7 @@ export const seasons: Season[] = [
     {
         number: 1,
         title: 'Temporada 1',
+        description: 'Las vidas de los físicos Leonard Hofstadter y Sheldon Cooper quedan sacudidas cuando una joven y atractiva aspirante a actriz de Omaha, Nebraska, llamada Penny, se instala en el apartamento enfrente al suyo. Leonard comienza a enamorarse desesperadamente de Penny, mientras que ella solo siente un afecto platónico por él. Como resultado, tendrá que soportar a sus siempre presentes amigos: su compañero de piso, Sheldon, que parece estar al límite del trastorno obsesivo-compulsivo de la personalidad; el genio de la ingeniería Howard Wolowitz, un desesperante niño de mamá loco por el sexo que cree que su vestimenta y su corte de pelo estilo 1960 le dan un cierto aire fresco de originalidad; y Rajesh Koothrappali, que no hablará con ella debido al mutismo selectivo que le impide hablar con mujeres, a menos que haya bebido, en cuyo caso se convierte su forma de hablar en un flirteo sexual suave pero muy agresivo.',
         link: '/seasons/1',
         start: '24.9.07',
         end: '19.5.08',
@@ -120,146 +121,146 @@ export const seasons: Season[] = [
         start: '22.9.08',
         end: '11.5.09',
         nEpisodes: 23,
-        episodes: [/*
+        episodes: [
             {
                 number: 18,
                 title: 'El Paradigma del Pescado Malo',
                 release: '22.9.08',
-                link: ''
+                link: 'https://mega.nz/embed/hyQAwJ4I#gG0Scr4clkpIo4i3at9NaFsBzrLJLXEUCg1qdTnuJHM'
             },
             {
                 number: 19,
                 title: 'La Topología de la Coquilla',
                 release: '29.9.08',
-                link: ''
+                link: 'https://mega.nz/embed/QmwinABZ#UhqQ3p-mnnjtgsg_GcOE2f6U6pNvLBflE6E2-UwHNhc'
             },
             {
                 number: 20,
                 title: 'La Sublimación de los Bárbaros',
                 release: '6.10.08',
-                link: ''
+                link: 'https://mega.nz/embed/EiYUFIqJ#KbzuEh2eHWoKVfSmcSs3tvGgO2kjeSKYnQgrXr7501w'
             },
             {
                 number: 21,
                 title: 'La Equivalencia de Griffin',
                 release: '13.10.08',
-                link: ''
+                link: 'https://mega.nz/embed/lqgX2KxI#8DXrzBlfH-CcjCFP7u7V7u66jn3-WgjVvl_Hg019d_k'
             },
             {
                 number: 22,
                 title: 'La Variante de Euclides',
                 release: '20.10.08',
-                link: ''
+                link: 'https://mega.nz/embed/IiIUiDLS#Olh0oIIjnge0LSIT8QPWOoiudScCfJzFYKpV6MdF4mE'
             },
             {
                 number: 23,
                 title: 'El Teorema de Cooper-Nowitzki',
                 release: '3.11.08',
-                link: ''
+                link: 'https://mega.nz/embed/Fzgk0CjT#9ZeIM_F8hzk6feNColnJYMpSHoazD5OmEXY7hhzhdR8'
             },
             {
                 number: 24,
                 title: 'La Polarización Panty Piñata',
                 release: '10.11.08',
-                link: ''
+                link: 'https://mega.nz/embed/1n5HADhI#j0OwQik3kXlwYFVkvua_z6zeFuZPxp_cizm1_GuRx-8'
             },
             {
                 number: 25,
                 title: 'La Expansión de Lagarto-Spock',
                 release: '17.11.08',
-                link: ''
+                link: 'https://mega.nz/embed/dr5CUaqZ#YtXdXIy4KXd_ZDKutItEjcCyWomN-DrxjrJvgdGemaE'
             },
             {
                 number: 26,
                 title: 'La Triangulación de los Espárragos Blancos',
                 release: '24.11.08',
-                link: ''
+                link: 'https://mega.nz/embed/V25jkZ4R#7bIJFxrU3sLkBB47Rq3SiM-bOFH1YB9rXIQTXteF3HQ'
             },
             {
                 number: 27,
                 title: 'El Rompecabezas Vartabedian',
                 release: '8.12.08',
-                link: ''
+                link: 'https://mega.nz/embed/JnZXhQiJ#0vP91lQ9ssrGWQR1fVsE0Z-KvFCkfZUCxpKyzkCLvyI'
             },
             {
                 number: 28,
                 title: 'La Hipótesis del Regalo del Artículo de Baño',
                 release: '15.12.08',
-                link: ''
+                link: 'https://mega.nz/embed/o2RSmbJY#iUM7w9CPA3z0ho--V-qtlcizFfBkJr-LCse7sDHHhOc'
             },
             {
                 number: 29,
                 title: 'La Inestabilidad del Robot Asesino',
                 release: '12.1.09',
-                link: ''
+                link: 'https://mega.nz/embed/Jy43mJaL#6YmTUniNt9Q6LhKdeAhZK9R-564ZzQP9ZNdv212y9_o'
             },
             {
                 number: 30,
                 title: 'El Algoritmo de la Amistad',
                 release: '19.1.09',
-                link: ''
+                link: 'https://mega.nz/embed/cjpAnaxS#3bRIHOdUJHozY4D-K7qN-wS4f6lixgoU2R-VROR0bnU'
             },
             {
                 number: 31,
                 title: 'La Permeabilidad Financiera',
                 release: '2.2.09',
-                link: ''
+                link: 'https://mega.nz/embed/B7JRFJpQ#zdsDY0SdhCVVcwMZi28te107YGtXgfxlUzAAmEQyexc'
             },
             {
                 number: 32,
                 title: 'La Capacitancia Maternal',
                 release: '9.2.09',
-                link: ''
+                link: 'https://mega.nz/embed/ZmZWAZYB#_hhleLcmestH9VG-hVHwLgvT1GpyxGH8gVHgsbcxwuw'
             },
             {
                 number: 33,
                 title: 'La Saturación del Cojín',
                 release: '2.3.09',
-                link: ''
+                link: 'https://mega.nz/embed/MnRm3bbL#wjw99HPDFCtFzLABlfRXHsJl4r6_YzRO5B1PFbryjDg'
             },
             {
                 number: 34,
                 title: 'La Separación de Terminator',
                 release: '9.3.09',
-                link: ''
+                link: 'https://mega.nz/embed/FnZgHb5S#sPBo5eO33IDWV4SwbHJ6psTmFLvXf6Od0PH-TyCI3LY'
             },
             {
                 number: 35,
                 title: 'El Nanoclúster de la Canción de Trabajo',
                 release: '16.3.09',
-                link: ''
+                link: 'https://mega.nz/embed/gjoWBT4R#94NN4TDNfm1684U3CXyqVNEPSe6SziHfJIrmU7cfkgg'
             },
             {
                 number: 36,
                 title: 'La Yuxtaposición de la Prostituta Muerta',
                 release: '30.3.09',
-                link: ''
+                link: 'https://mega.nz/embed/snYnWL5L#1vyaer5TaSAz_YN2f-SQB7JwAak8uyXAhff_BHuMzk0'
             },
             {
                 number: 37,
                 title: 'El Isótopo Hofstadter',
                 release: '13.4.09',
-                link: ''
+                link: 'https://mega.nz/embed/cmRS2AYb#8kGfHmBQwET4UX9bfY9Jf4ta_a4DYWqZhGzO_beQ6AU'
             },
             {
                 number: 38,
                 title: 'La Renormalización de Las Vegas',
                 release: '27.4.09',
-                link: ''
+                link: 'https://mega.nz/embed/4vxnwbAb#xcVMIbMIThUQqDfnzZxWyml0Ecqj0jy9iBheFGC89Ng'
             },
             {
                 number: 39,
                 title: 'La Turbulencia de los Materiales Clasificados',
                 release: '4.5.09',
-                link: ''
+                link: 'https://mega.nz/embed/FzBjGCDD#FMjDITwpXfZ2lVMvABSjWXOW0sUxpZvAPGtmvnh3Ctk'
             },
             {
                 number: 40,
                 title: 'La Expedición Monopolar',
                 release: '11.5.09',
-                link: ''
+                link: 'https://mega.nz/embed/56hwWTIZ#M79d-y_nEp3icYgE3LQ2A-6FO3MCEWYou6P7f_4XRdM'
             },
-        */]
+        ]
     },
     {
         number: 3,

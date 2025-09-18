@@ -8,7 +8,7 @@ export const preview = 'https://tbbt.esflowers.icu/preview.png'
 
 export const creator: Link = {
     title: 'esflowers',
-    link: 'https://esflowers.icu',
+    link: 'https://esflowers.icu/',
     label: 'Creador de este sitio web'
 }
 
@@ -21,7 +21,7 @@ export const site: Link = {
 export const bmc: Link = {
     title: 'Buy Me a Coffee',
     link: 'https://coff.ee/esflowers_',
-    label: 'Contribuye al mantenimiento de este sitio web'
+    label: 'Contribuye'
 }
 
 export const wiki: Link = {
@@ -32,8 +32,8 @@ export const wiki: Link = {
 
 export const provider: Link = {
     title: 'Proveedor',
-    link: 'https://thebigbangtheorytvlatinoo.blogspot.com/',
-    label: 'https://facebook.com/chinotvserie/'
+    link: 'https://thebigbangtheorytvlatinoo.blogspot.com',
+    label: 'https://facebook.com/chinotvserie'
 }
 
 export const serie = {

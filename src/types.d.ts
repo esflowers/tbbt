@@ -21,6 +21,7 @@ export type Episode = {
 export type Season = {
     number: number,
     title: string,
+    description?: string,
     link: string,
     start: Date,
     end: Date,
