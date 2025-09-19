@@ -18,6 +18,12 @@ export const site: Link = {
     label: 'tbbt.esflowers.icu'
 }
 
+export const repository: Link = {
+    title: 'GitHub',
+    link: 'https://github.com/esflowers/tbbt',
+    label: 'Aporta una estrella'
+}
+
 export const bmc: Link = {
     title: 'Buy Me a Coffee',
     link: 'https://coff.ee/esflowers_',
