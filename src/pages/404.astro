@@ -1,11 +1,14 @@
 ---
+import { name } from '../data';
 import Layout from '../layouts/Layout.astro';
+import Image from 'astro/components/Image.astro';
+import img404 from '../assets/404.jpeg';
 ---
 
-<Layout page="Error 404">
-    <h1 slot="header" class="font-display font-bold text-pretty text-6xl lg:text-7xl 2xl:text-8xl select-none">Error <span class="text-transparent bg-clip-text bg-gradient-to-br from-red-950 via-red-700 to-red-500">404</span></h1>
-
-	<div slot="article">
-		<h2 class="font-medium text-sm tracking-wide text-base-300">Página no encontrada</h2>
+<Layout page={`Error 404 - ${name}`}>
+	<div slot="other" class="w-full h-full text-center flex flex-col items-center justify-center gap-2">
+		<Image src={img404} alt={'Página no encontrada'} class="scale-75 aspect-video object-center object-cover rounded-xl" />
+    	<h2 class="font-display font-bold uppercase text-5xl tracking-tight">Error <span class="text-gradient">404</span></h2>
+		<h2 class="font-mono font-medium text-sm text-center text-base-800">Página no encontrada</h2>
 	</div>
 </Layout>
