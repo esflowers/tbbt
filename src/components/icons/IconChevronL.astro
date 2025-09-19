@@ -1,0 +1,16 @@
+---
+interface Props {
+    size?: string,
+    stroke?: string
+    className?: string
+}
+
+const { size = '16', stroke = '2', className } = Astro.props as Props
+---
+
+<svg  xmlns="http://www.w3.org/2000/svg"  width={size}  height={size}  
+    viewBox="0 0 24 24"  fill="none"  
+    stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  
+    class={`stroke-base-800 transition duration-200 group-hover:-translate-x-0.5 group-hover:stroke-base-950 group-hover:scale-x-150 group-hover:scale-y-90 ${className}`}>
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M13 20l-3 -8l3 -8" />
+</svg>
