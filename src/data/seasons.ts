@@ -265,11 +265,151 @@ export const seasons: Season[] = [
     {
         number: 3,
         title: 'Temporada 3',
+        description: 'Tuvo una audiencia mayor que las dos anteriores, con más de 15 millones de espectadores. La temporada completa en DVD acredita erróneamente a Mark Cendrowski como director casi toda la temporada. La tercera temporada comienza tres meses después del final de la temporada anterior, con el regreso de los chicos de su expedición al Polo Norte.',
         link: '/seasons/3',
         start: '21.9.09',
         end: '24.5.10',
         nEpisodes: 23,
-        episodes: []
+        episodes: [
+            {
+                number: 41,
+                title: 'La fluctuación del abrelatas eléctrico',
+                release: '21.9.09',
+                link: 'https://mega.nz/embed/96BFzTQJ#H0vw9tyNcN0Fi6FowPpuy9ON-S9Hp3WRBA8zlLo8lh8'
+            },
+            {
+                number: 42,
+                title: 'Las conjeturas de Jiminy',
+                release: '28.9.09',
+                link: 'https://mega.nz/embed/1rRTnQCI#sTbT_s4GchMViqWQnY57PthLchNaKt0IhzNU07_ZaS8'
+            },
+            {
+                number: 43,
+                title: 'La variante Gothowitz',
+                release: '5.10.09',
+                link: 'https://mega.nz/embed/cyIHFb5Z#jcigshfoTYRKQYpLsrttFVjbPPXnJiNv8si9-CPwahY'
+            },
+            {
+                number: 44,
+                title: 'La solución del pirata',
+                release: '12.10.09',
+                link: 'https://mega.nz/embed/ErYAGKJb#FKqtZjXNAl7CtVlsFoxzXqpMwpO7PrGfEwSjFJvCdcI'
+            },
+            {
+                number: 45,
+                title: 'El teorema del baño de caramelo',
+                release: '19.9.09',
+                link: 'https://mega.nz/embed/9uxhEaQC#K06lsZKaRUsM5PbkjFdr99o7liVX4lgx4K-VbI8t53s'
+            },
+            {
+                number: 46,
+                title: 'La guerra de las cometas',
+                release: '2.11.09',
+                link: 'https://mega.nz/embed/5nBgjASQ#Wy8cuoGSmCepP-qMSP4vDFC-Jkl4qxV22fiQC9Goj5o'
+            },
+            {
+                number: 47,
+                title: 'La amplificación del guitarrista',
+                release: '9.11.09',
+                link: 'https://mega.nz/embed/ImYxWD5T#bXmi50S-GHMk-hacgmkhQjqACCq8U0PbHuRC_ExEAHY'
+            },
+            {
+                number: 48,
+                title: 'La constante de la fricción en bañeras',
+                release: '16.11.09',
+                link: 'https://mega.nz/embed/czoTUIRY#AVKG1kx3ioqU4Yc1CwLALxsYu9ZwTfH5Bs0v1c_OyQ4'
+            },
+            {
+                number: 49,
+                title: 'La fórmula de la venganza',
+                release: '23.11.09',
+                link: 'https://mega.nz/embed/06YXDYYI#Hcs19PeWFZjBtP-9EC1OTfg8uus8jdVt35kT_0iYEW8'
+            },
+            {
+                number: 50,
+                title: 'El experimento Gorila',
+                release: '7.12.09',
+                link: 'https://mega.nz/embed/o7whRTYD#pkYgjUYGSo3-dkFyAQubkeDwoJ5xMd6DUc4LAGyBh-I'
+            },
+            {
+                number: 51,
+                title: 'La congruencia maternal',
+                release: '14.12.09',
+                link: 'https://mega.nz/embed/QypixTYL#ZnUNEVLtzS1I6BOs7wE-o9pLjfbcJakjijFeWBW3c_o'
+            },
+            {
+                number: 52,
+                title: 'El vortex psíquico',
+                release: '11.1.10',
+                link: 'https://mega.nz/embed/NmokyJxZ#4p2702cS0v4JabBaQ5j1Bv9qhKbJkqs1Iso-jwvYPJ0'
+            },
+            {
+                number: 53,
+                title: 'La reacción Bozeman',
+                release: '18.1.10',
+                link: 'https://mega.nz/embed/hiZgAYjR#RJVLUR8om7EK6OuKnL0LWPH2JXBKzrXLEQl0HsBrjnk'
+            },
+            {
+                number: 54,
+                title: 'La aproximación de Einstein',
+                release: '1.2.10',
+                link: 'https://mega.nz/embed/8yY0ha6Z#uz7q6v3gge15CGBygyCsYJNfa1e-sup0lZhbFyFijDk'
+            },
+            {
+                number: 55,
+                title: 'La gran colisión de Hadron',
+                release: '8.2.10',
+                link: 'https://mega.nz/embed/0jAi0YAZ#es1rotcvNCmwPJMz8mGYc4lissbPYUyQniXVvhJRtUg'
+            },
+            {
+                number: 56,
+                title: 'La gran adquisición',
+                release: '1.3.10',
+                link: 'https://mega.nz/embed/MqBQWBYR#Ih2tWaHlexCJi5oL9H0sJx5GXm6YpZjGQzJ1X5Yyt-w'
+            },
+            {
+                number: 57,
+                title: 'Una fragmentación muy valiosa',
+                release: '8.3.10',
+                link: 'https://mega.nz/embed/U7R3XRhY#st0UeqdREt4gbls8x0TnSOZUNv5kPgEupcd03lDLfEc'
+            },
+            {
+                number: 58,
+                title: 'La alternativa a los pantalones',
+                release: '22.3.10',
+                link: 'https://mega.nz/embed/t2xCQBJZ#NbsquOEGygAxBakQE22-bc17R_bb7JfCf27xYBiDrpE'
+            },
+            {
+                number: 59,
+                title: 'La recurrencia Wheaton',
+                release: '12.4.10',
+                link: 'https://mega.nz/embed/o3gkGTiA#qCeuL22-BwzSeOa2emFkzhLVkV7T3VSAFidwRO6i3tU'
+            },
+            {
+                number: 60,
+                title: 'El catalizador de espagueti',
+                release: '3.5.10',
+                link: 'https://mega.nz/embed/N6hHxTBL#csVkSN2aq63ki_slLgR8wnUHsotCEaVQn-ROlznSoR4'
+            },
+            {
+                number: 61,
+                title: 'La estimulación de la doctora Plimpton',
+                release: '10.5.10',
+                link: 'https://mega.nz/embed/8jgUiQBQ#IdWnb5F9yQeOSGc1r6U2PlNEDmbLzqdyNcYHDY-8fxE'
+            },
+            {
+                number: 62,
+                title: 'La implementación de la escalera continua',
+                release: '17.5.10',
+                link: 'https://mega.nz/embed/B7p2TZqR#UGDtx7a57cJZ3eqBRLGmc5gn6LcePcD7hbjymnNArKc'
+            },
+            {
+                number: 63,
+                title: 'La excitación lunar',
+                release: '24.5.10',
+                link: 'https://mega.nz/embed/M24FgbSS#Tziufrf_pwB6ZlNTU3yoETUXc2CSZjVkJ4riDH9jgzg'
+            }
+        ]
     },
     {
         number: 4,
