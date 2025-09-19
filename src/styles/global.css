@@ -10,9 +10,15 @@
     src: url('/fonts/Manrope.ttf');
 }
 
+@font-face {
+    font-family: 'DM Mono';
+    src: url('/fonts/DMMono.ttf');
+}
+
 @theme {
     --font-display: 'Thunder', sans-serif;
     --font-sans: 'Manrope', sans-serif;
+    --font-mono: 'DM Mono', monospace;
 
     --color-base-50: #fafafa;
     --color-base-100: #fff7f3;
@@ -28,12 +34,19 @@
 }
 
 * {
-    scrollbar-width: thin;
-    scrollbar-color: theme('color.stone.100') theme('color.stone.950');
+    scrollbar-width: none;
 }
 
 p {
     @apply text-pretty;
+}
+
+i, b {
+    @apply font-semibold;
+}
+
+time {
+    @apply font-mono;
 }
 
 thead tr {
@@ -56,4 +69,8 @@ thead td {
     background-color: hsla(145.7142857142857, 100%, 1%, 1);
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 1773 1773' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E"), radial-gradient(circle at 51% 50%, hsla(55.36363636363636, 94%, 54%, 1) 0%, transparent 67.29836832203138%), radial-gradient(circle at 51% 50%, hsla(37.42857142857143, 91%, 54%, 1) 0%, transparent 79.7720221380074%), radial-gradient(circle at 19% 54%, hsla(26.470588235294112, 100%, 50%, 0.39) 4.331289506097644%, transparent 27.2006620020709%), radial-gradient(circle at 22% 36%, hsla(346.7647058823529, 87%, 51%, 1) 0%, transparent 64.9720707962805%), radial-gradient(circle at 77% 30%, hsla(26.470588235294112, 100%, 50%, 0.79) 0%, transparent 24.840830609358296%), radial-gradient(circle at 84% 28%, hsla(71.55190287430875, 95%, 20%, 0.7) 0%, transparent 30.152727654945114%), radial-gradient(circle at 86% 65%, hsla(26.470588235294112, 100%, 50%, 0.52) 4.331289506097644%, transparent 18.73371113682814%), radial-gradient(circle at 93% 61%, hsla(267.3529411764709, 4%, 8%, 1) 0%, transparent 35.908407608180724%), radial-gradient(circle at 18% 67%, hsla(0, 0%, 29%, 1) 0%, transparent 60.54163085236944%), radial-gradient(circle at 20% 80%, hsla(267.35294117647055, 81%, 73%, 1) 0%, transparent 34.539431442116374%), radial-gradient(circle at 86% 81%, hsla(263.38235294117646, 52%, 56%, 0.73) 0%, transparent 30.152727654945114%);
     background-blend-mode: overlay, normal, normal, normal, normal, normal, normal, normal, normal, normal, normal, normal;
+}
+
+.text-gradient {
+    @apply text-transparent bg-clip-text bg-gradient-to-br from-red-950 via-red-700 to-red-500;
 }
