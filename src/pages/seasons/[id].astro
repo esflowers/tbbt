@@ -1,9 +1,10 @@
 ---
-import { name } from '../../data/data';
+import { name } from '../../data';
 import { seasons } from '../../data/seasons';
 import Layout from '../../layouts/Layout.astro';
 import Button from '../../components/Button.astro';
 import InfoLine from '../../components/InfoLine.astro';
+import IconChevronR from '../../components/icons/IconChevronR.astro';
 
 export async function getStaticPaths () {
     return seasons.map(season => ({
@@ -16,37 +17,35 @@ const { season } = Astro.props;
 ---
 
 <Layout page={`${season.title} - ${name}`}>
-    <h1 slot="header" class="font-display font-bold text-pretty text-center text-6xl lg:text-7xl 2xl:text-8xl text-base-950 tracking-tight select-none">Temporada <span class="text-transparent bg-clip-text bg-gradient-to-br from-red-950 via-red-700 to-red-500">{season.number}</span></h1>
 
-	<div slot="article" class="space-y-2">
-		<div class="space-y-1.5 text-xs text-base-800">
-			<InfoLine title='Episodios' text={season.nEpisodes} />
-			<InfoLine title='Inicio' text={season.start} />
-			<InfoLine title='Fin' text={season.end} />
+	<div slot="article" class="space-y-2 text-sm">
+		<p class="font-medium text-base-950">{season.description}</p>
+		<br>
+		<div class="space-y-1.5 text-base-900">
+			<InfoLine title='Episodios'>
+				<span class="font-mono">{season.nEpisodes}</span>
+			</InfoLine>
+			<InfoLine title='Inicio'>
+				<time datetime={season.start}>{season.start}</time>
+			</InfoLine>
+			<InfoLine title='Final'>
+				<time datetime={season.end}>{season.end}</time>
+			</InfoLine>
 		</div>
 	</div>
 
-	<menu class="w-full overflow-auto">
-		{season.episodes.length > 0 ? 
-			<table class="w-full">
-				<thead>
-					<tr>
-						<td class="text-center">N.</td>
-						<td>Episodio</td>
-						<td class="text-end">Estreno</td>
-					</tr>
-				</thead>
-				<tbody>
-					{season.episodes.map(item => (
-						<tr>
-							<td class="text-center text-sm text-base-400">{item.number}</td>
-							<td><Button text={item.title} link={item.link} title={`${item.number}, ${season.title}`} className='w-full!' /></td>
-							<td class="text-end text-sm text-base-400">{item.release}</td>
-						</tr>
-					))}
-				</tbody>
-			</table>
-			: <h2 class="font-display text-3xl text-base-400">Muy pronto...</h2>
-		}
-	</menu>
+	{season.episodes.length > 0 ? 
+		<menu class="w-full space-y-2 lg:columns-2 lg:gap-x-4">
+			{season.episodes.map (item => (
+				<Button text={item.title} link={item.link} type='block' title={`${item.title}, ${season.title} - ${name}`}>
+					<span slot="l" class="min-w-[3ch] font-mono text-end">{item.number}.</span>
+					<div slot='r' class="w-fit ml-auto flex items-center gap-2">
+						<span class="font-mono text-xs opacity-0 transition duration-150 group-hover:opacity-100">{item.release}</span>
+						<IconChevronR size='13' />
+					</div>
+				</Button>
+			))}
+		</menu>
+		: <h2 class="font-display text-3xl text-base-400">Muy pronto...</h2>
+	}
 </Layout>

@@ -4,7 +4,7 @@ import { seasons } from '../data/seasons';
 import Layout from '../layouts/Layout.astro';
 import Button from '../components/Button.astro';
 import InfoLine from '../components/InfoLine.astro';
-import IconChevron from '../components/icons/IconChevron.astro';
+import IconChevronR from '../components/icons/IconChevronR.astro';
 ---
 
 <Layout>
@@ -42,7 +42,7 @@ import IconChevron from '../components/icons/IconChevron.astro';
 			<Button text={item.title} link={item.link} type='block' title={`${item.title}, ${item.start} - ${name}`}>
 				<div slot='r' class="w-fit ml-auto flex items-center gap-2">
 					<span class="font-mono text-xs opacity-0 transition duration-150 group-hover:opacity-100">{item.nEpisodes}</span>
-					<IconChevron size='13' className='stroke-base-800 transition duration-200 group-hover:translate-x-0.5 group-hover:stroke-base-950 group-hover:scale-x-150 group-hover:scale-y-90' />
+					<IconChevronR size='13' />
 				</div>
 			</Button>
 		))}
