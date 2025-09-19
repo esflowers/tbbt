@@ -2,21 +2,22 @@
 interface Props {
     text: string
     link: string
-    size?: 'sm' | 'md'
+    type?: 'sm' | 'link' | 'block'
     target?: '_self' | '_blank' | '_parent' | '_top'
     title?: string
     className?: string
     classText?: string
 }
 
-const { text, link, size = 'md', target = '_self', title, className, classText } = Astro.props as Props;
+const { text, link, type = 'link', target = '_self', title, className, classText } = Astro.props as Props;
 ---
 
 <a href={link} target={target} aria-labelledby={title} class:list={[
     'w-fit h-fit group flex items-center gap-1.5 transition duration-200 font-medium select-none',
     {
-        'text-xs 2xl:text-sm text-base-300 hover:text-white tracking-tighter': size === 'sm',
-        'md:text-sm text-base-900 hover:text-base-950': size === 'md'
+        'text-xs 2xl:text-sm tracking-tighter text-base-300 hover:text-white': type === 'sm',
+        'font-mono hover:text-base-950 tracking-tighter': type === 'link',
+        'w-full p-2.5 rounded-lg font-semibold text-sm tracking-tight text-base-800 hover:text-base-950 backdrop-blur-xs bg-white/20 hover:bg-white/30': type === 'block'
     },
     className
 ]}>
