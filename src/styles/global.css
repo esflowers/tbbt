@@ -56,5 +56,5 @@ time {
 }
 
 .text-gradient {
-    @apply text-transparent bg-clip-text bg-gradient-to-br from-red-950 via-red-700 to-red-500;
+    @apply text-red-500 md:text-transparent bg-clip-text bg-gradient-to-br md:from-red-950 md:via-red-700 md:to-red-500;
 }
