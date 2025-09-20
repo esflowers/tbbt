@@ -1,10 +1,13 @@
 ---
-import { name } from '../../data';
+import { name, bmc, repository } from '../../data';
 import { seasons } from '../../data/seasons';
 import Layout from '../../layouts/Layout.astro';
 import Button from '../../components/Button.astro';
 import InfoLine from '../../components/InfoLine.astro';
+import IconChevronL from '../../components/icons/IconChevronL.astro';
 import IconChevronR from '../../components/icons/IconChevronR.astro';
+import IconCoffee from '../../components/icons/IconCoffee.astro';
+import IconStar from '../../components/icons/IconStar.astro';
 
 export async function getStaticPaths () {
     return seasons.map(season => ({
@@ -14,11 +17,40 @@ export async function getStaticPaths () {
 }
 
 const { season } = Astro.props;
+
+const index = seasons.findIndex(s => s.number === season.number);
+const prev = index > 0 ? seasons[index - 1] : null;
+const next = index < seasons.length - 1 ? seasons[index + 1] : null;
 ---
 
 <Layout page={`${season.title} - ${name}`}>
+	<nav slot="nav" class="w-full -mt-6 mb-10 text-sm flex items-center justify-between md:justify-center gap-3 md:gap-8 xl:gap-12">
+		{index === 0 ? (
+			<Button text="Inicio" link="/" title="Ir al inicio">
+				<IconChevronL slot="l" size="13" />
+			</Button>
+		) : (
+			prev && (
+				<Button text="Anterior" link={prev.link} title={prev.title}>
+				<IconChevronL slot="l" size="13" />
+				</Button>
+			)
+		)}
+		<h2 class="font-mono font-semibold uppercase tracking-tight text-base-800">{season.title}</h2>
+		{index === seasons.length - 1 ? (
+			<Button text="Inicio" link="/" title="Ir al inicio">
+				<IconChevronR slot="r" size="13" />
+			</Button>
+			) : (
+			next && (
+				<Button text="Siguiente" link={next.link} title={next.title}>
+				<IconChevronR slot="r" size="13" />
+				</Button>
+			)
+		)}
+	</nav>
 
-	<div slot="article" class="space-y-2 text-sm">
+	<div slot="article" class="space-y-2 text-sm order-2">
 		<p class="font-medium text-base-950">{season.description}</p>
 		<br>
 		<div class="space-y-1.5 text-base-900">
@@ -32,6 +64,21 @@ const { season } = Astro.props;
 				<time datetime={season.end}>{season.end}</time>
 			</InfoLine>
 		</div>
+		<br>
+		<div class="w-full flex items-center gap-3">
+			<Button text={bmc.title} link={bmc.link} type='block' title={bmc.label} target='_blank'>
+				<div slot='r' class="w-fit ml-auto flex items-center gap-2">
+					<span class="hidden lg:flex font-mono text-xs text-end opacity-0 transition duration-150 group-hover:opacity-100">{bmc.label}</span>
+					<IconCoffee slot='r' size='15' className='ml-auto transition duration-200 group-hover:scale-105' />
+				</div>
+			</Button>
+			<Button text={repository.title} link={repository.link} type='block' title={repository.label} target='_blank'>
+				<div slot='r' class="w-fit ml-auto flex items-center gap-2">
+					<span class="hidden lg:flex font-mono text-xs text-end opacity-0 transition duration-150 group-hover:opacity-100">{repository.label}</span>
+					<IconStar slot='r' size='15' className='ml-auto transition duration-200 group-hover:scale-105' />
+				</div>
+			</Button>
+		</div>
 	</div>
 
 	{season.episodes.length > 0 ? 
@@ -40,12 +87,12 @@ const { season } = Astro.props;
 				<Button text={item.title} link={item.link} type='block' title={`${item.title}, ${season.title} - ${name}`}>
 					<span slot="l" class="min-w-[3ch] font-mono text-end">{item.number}.</span>
 					<div slot='r' class="w-fit ml-auto flex items-center gap-2">
-						<span class="font-mono text-xs opacity-0 transition duration-150 group-hover:opacity-100">{item.release}</span>
+						<span class="hidden xl:flex font-mono text-xs opacity-0 transition duration-150 group-hover:opacity-100">{item.release}</span>
 						<IconChevronR size='13' />
 					</div>
 				</Button>
 			))}
 		</menu>
-		: <h2 class="font-display text-3xl text-base-400">Muy pronto...</h2>
+		: <h2 class="font-display text-3xl text-base-900">En desarrollo...</h2>
 	}
 </Layout>

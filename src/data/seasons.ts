@@ -117,6 +117,7 @@ export const seasons: Season[] = [
     {
         number: 2,
         title: 'Temporada 2',
+        description: 'La temporada completa en DVD fue publicada el 15 de septiembre de 2009, y la versión en Blu-ray fue publicada el 10 de julio de 2012 con el sonido remasterizado en surround, mientras que la versión en DVD tiene sonido estereofónico. La segunda temporada se inicia continuando la trama del último episodio de la primera temporada, con la cita de Leonard y Penny.',
         link: '/seasons/2',
         start: '22.9.08',
         end: '11.5.09',

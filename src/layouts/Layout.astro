@@ -38,6 +38,8 @@ const { page = title } = Astro.props as Props;
 
 	<h1 class="mb-12 font-display font-bold text-pretty text-center text-6xl lg:text-7xl 2xl:text-8xl text-black tracking-tight select-none">the BiG<br><span class="text-gradient">BANG</span> THEORY</h1>
 
+	<slot name="nav" />
+
 	<main class="grid md:grid-cols-2 gap-12 md:gap-16 xl:gap-20 2xl:gap-28">
 		<section class="space-y-4 md:sticky md:top-6 lg:top-12">
 			<slot name="article" />
@@ -45,8 +47,6 @@ const { page = title } = Astro.props as Props;
 		<slot />
 	</main>
 
-	<div>
-		<slot name="other" />
-	</div>
+	<slot name="other" />
 </body>
 </html>
