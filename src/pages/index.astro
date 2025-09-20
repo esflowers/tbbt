@@ -26,7 +26,7 @@ import IconChevronR from '../components/icons/IconChevronR.astro';
 				<span class="font-mono">{serie.episodes}</span>
 			</InfoLine>
 			<InfoLine title='Web oficial'>
-				<Button text={serie.site} link={`https://${serie.site}`} target='_blank' />
+				<Button text='cbs.com' link={`https://${serie.site}`} target='_blank' />
 			</InfoLine>
 			<InfoLine title='Estreno'>
 				<time datetime={serie.start}>{serie.start}</time>
@@ -41,7 +41,7 @@ import IconChevronR from '../components/icons/IconChevronR.astro';
 		{seasons.map(item => (
 			<Button text={item.title} link={item.link} type='block' title={`${item.title}, ${item.start} - ${name}`}>
 				<div slot='r' class="w-fit ml-auto flex items-center gap-2">
-					<span class="hidden sm:flex font-mono text-xs opacity-0 transition duration-150 group-hover:opacity-100">{item.nEpisodes}</span>
+					<span class="hidden sm:flex md:hidden lg:flex font-mono text-xs opacity-0 transition duration-150 group-hover:opacity-100">{item.nEpisodes}</span>
 					<IconChevronR size='13' />
 				</div>
 			</Button>
