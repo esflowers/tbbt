@@ -40,11 +40,13 @@ const { page = title } = Astro.props as Props;
 
 	<slot name="nav" />
 
-	<main class="grid md:grid-cols-2 gap-12 md:gap-16 xl:gap-20 2xl:gap-28">
-		<section class="space-y-4 md:sticky md:top-6 lg:top-12">
+	<main class="grid md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-16 2xl:gap-24">
+		<section class="space-y-4">
 			<slot name="article" />
 		</section>
-		<slot />
+		<section class="lg:col-span-2">
+			<slot />
+		</section>
 	</main>
 
 	<slot name="other" />

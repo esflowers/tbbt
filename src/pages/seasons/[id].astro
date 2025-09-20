@@ -24,27 +24,27 @@ const next = index < seasons.length - 1 ? seasons[index + 1] : null;
 ---
 
 <Layout page={`${season.title} - ${name}`}>
-	<nav slot="nav" class="w-full -mt-6 mb-10 text-sm flex items-center justify-between md:justify-center gap-3 md:gap-8 xl:gap-12">
+	<nav slot="nav" class="w-full -mt-6 mb-10 text-sm grid grid-cols-3 gap-3 md:gap-0">
 		{index === 0 ? (
-			<Button text="Inicio" link="/" title="Ir al inicio">
+			<Button text="Inicio" link="/" title="Ir al inicio" className="md:ml-auto uppercase">
 				<IconChevronL slot="l" size="13" />
 			</Button>
 		) : (
 			prev && (
-				<Button text="Anterior" link={prev.link} title={prev.title}>
-				<IconChevronL slot="l" size="13" />
+				<Button text="Anterior" link={prev.link} title={prev.title} className="md:ml-auto uppercase">
+					<IconChevronL slot="l" size="13" />
 				</Button>
 			)
 		)}
-		<h2 class="font-mono font-semibold uppercase tracking-tight text-base-800">{season.title}</h2>
+		<h2 class="font-extrabold uppercase text-center tracking-tight text-base-800">{season.title}</h2>
 		{index === seasons.length - 1 ? (
-			<Button text="Inicio" link="/" title="Ir al inicio">
+			<Button text="Inicio" link="/" title="Ir al inicio" className="ml-auto md:ml-0 md:mr-auto uppercase">
 				<IconChevronR slot="r" size="13" />
 			</Button>
-			) : (
+		) : (
 			next && (
-				<Button text="Siguiente" link={next.link} title={next.title}>
-				<IconChevronR slot="r" size="13" />
+				<Button text="Siguiente" link={next.link} title={next.title} className="ml-auto md:ml-0 md:mr-auto uppercase">
+					<IconChevronR slot="r" size="13" />
 				</Button>
 			)
 		)}
@@ -66,17 +66,11 @@ const next = index < seasons.length - 1 ? seasons[index + 1] : null;
 		</div>
 		<br>
 		<div class="w-full flex items-center gap-3">
-			<Button text={bmc.title} link={bmc.link} type='block' title={bmc.label} target='_blank'>
-				<div slot='r' class="w-fit ml-auto flex items-center gap-2">
-					<span class="hidden lg:flex font-mono text-xs text-end opacity-0 transition duration-150 group-hover:opacity-100">{bmc.label}</span>
-					<IconCoffee slot='r' size='15' className='ml-auto transition duration-200 group-hover:scale-105' />
-				</div>
+			<Button text={bmc.label!} link={bmc.link} type='block' title={bmc.title} target='_blank'>
+				<IconCoffee slot='r' size='15' className='min-w-[15px] ml-auto transition duration-200 group-hover:scale-105' />
 			</Button>
 			<Button text={repository.title} link={repository.link} type='block' title={repository.label} target='_blank'>
-				<div slot='r' class="w-fit ml-auto flex items-center gap-2">
-					<span class="hidden lg:flex font-mono text-xs text-end opacity-0 transition duration-150 group-hover:opacity-100">{repository.label}</span>
-					<IconStar slot='r' size='15' className='ml-auto transition duration-200 group-hover:scale-105' />
-				</div>
+				<IconStar slot='r' size='15' className='min-w-[15px] ml-auto transition duration-200 group-hover:scale-105' />
 			</Button>
 		</div>
 	</div>
