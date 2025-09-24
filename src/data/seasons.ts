@@ -4,7 +4,7 @@ export const seasons: Season[] = [
     {
         number: 1,
         title: 'Temporada 1',
-        description: 'Las vidas de los físicos Leonard Hofstadter y Sheldon Cooper quedan sacudidas cuando una joven y atractiva aspirante a actriz de Omaha, Nebraska, llamada Penny, se instala en el apartamento enfrente al suyo. Leonard comienza a enamorarse desesperadamente de Penny, mientras que ella solo siente un afecto platónico por él. Como resultado, tendrá que soportar a sus siempre presentes amigos: su compañero de piso, Sheldon, que parece estar al límite del trastorno obsesivo-compulsivo de la personalidad; el genio de la ingeniería Howard Wolowitz, un desesperante niño de mamá loco por el sexo que cree que su vestimenta y su corte de pelo estilo 1960 le dan un cierto aire fresco de originalidad; y Rajesh Koothrappali, que no hablará con ella debido al mutismo selectivo que le impide hablar con mujeres, a menos que haya bebido, en cuyo caso se convierte su forma de hablar en un flirteo sexual suave pero muy agresivo.',
+        description: 'Las vidas de los físicos Leonard Hofstadter y Sheldon Cooper quedan sacudidas cuando una joven y atractiva aspirante a actriz de Omaha, Nebraska, llamada Penny, se instala en el apartamento enfrente al suyo. Leonard comienza a enamorarse desesperadamente de Penny, mientras que ella solo siente un afecto platónico por él. Como resultado, tendrá que soportar a sus siempre presentes amigos: su compañero de piso, Sheldon, que parece estar al límite del trastorno obsesivo-compulsivo de la personalidad; el ingeniero Howard Wolowitz, un desesperante niño de mamá loco por el sexo que cree que su vestimenta y su corte de pelo estilo 1960 le dan un cierto aire fresco de originalidad; y Rajesh Koothrappali, que no hablará con ella debido al mutismo selectivo que le impide hablar con mujeres.',
         link: '/seasons/1',
         start: '24.9.07',
         end: '19.5.08',
@@ -117,7 +117,7 @@ export const seasons: Season[] = [
     {
         number: 2,
         title: 'Temporada 2',
-        description: 'La temporada completa en DVD fue publicada el 15 de septiembre de 2009, y la versión en Blu-ray fue publicada el 10 de julio de 2012 con el sonido remasterizado en surround, mientras que la versión en DVD tiene sonido estereofónico. La segunda temporada se inicia continuando la trama del último episodio de la primera temporada, con la cita de Leonard y Penny.',
+        description: 'La segunda temporada se inicia continuando la trama del último episodio de la primera temporada, con la cita de Leonard y Penny.',
         link: '/seasons/2',
         start: '22.9.08',
         end: '11.5.09',
@@ -415,6 +415,7 @@ export const seasons: Season[] = [
     {
         number: 4,
         title: 'Temporada 4',
+        description: 'Durante esta temporada, la actriz Kaley Cuoco se ausentó durante dos episodios, después de sufrir una caída desde un caballo y este le partiera la pierna de forma accidental. Cuando regresa a la serie, se la muestra en el puesto de Barman en lugar de camarera, en su lugar de trabajo, el The Cheesecake Factory, para esconder su lesión. En enero de 2011, la serie fue renovada por tres años más, hasta la temporada 2013-2014, por una quinta, sexta y séptima temporadas. La cuarta temporada se inicia cuatro meses después del final de la tercera, con la primera cita de Sheldon Cooper con Amy Farrah Fowler.',
         link: '/seasons/4',
         start: '23.9.10',
         end: '19.5.11',
@@ -424,6 +425,7 @@ export const seasons: Season[] = [
     {
         number: 5,
         title: 'Temporada 5',
+        description: 'Penny se lamenta por haber dormido con Raj y se hace muy amiga de Leonard, Leonard rompe con Priya, Amy obliga a Sheldon a que su relación sea de noviazgo, Penny y las otras mujeres se convierten en una camarilla, Howard prepara su boda y su viaje a la ISS y Leonard pide a Penny reiniciar la relación como un "Leonard y Penny 2.0".',
         link: '/seasons/5',
         start: '22.9.11',
         end: '10.5.12',
@@ -433,6 +435,7 @@ export const seasons: Season[] = [
     {
         number: 6,
         title: 'Temporada 6',
+        description: 'La serie cruzó la marca de los 20 millones de espectadores por primera vez en el episodio "The Bakersfield Expedition", que junto con NCIS, hicieron a la CBS la primera cadena de cable con dos series que alcanzan una gran audiencia en la misma semana desde el 2007. Este éxito se atribuyó a la sindicación de la serie, su emisión los jueves a las 20:00 horas, y a la influencia del productor Steven Molaro (sustituto de Bill Prady) en las historias de los protagonistas.',
         link: '/seasons/6',
         start: '27.9.12',
         end: '16.5.13',
@@ -442,6 +445,7 @@ export const seasons: Season[] = [
     {
         number: 7,
         title: 'Temporada 7',
+        description: 'El 12 de marzo de 2014, la serie fue renovada por un período adicional de tres años, extendiéndose hasta la temporada de 2016-2017 con un total de diez temporadas.',
         link: '/seasons/7',
         start: '26.9.13',
         end: '15.5.14',
@@ -451,6 +455,7 @@ export const seasons: Season[] = [
     {
         number: 8,
         title: 'Temporada 8',
+        description: 'Esta octava temporada se ha caracterizado por dos hechos fundamentales que han afectado en alguna manera a la serie: primero, durante los seis primeros episodios, la serie se trasladó a la noche de los lunes, volviendo a su horario habitual el 30 de octubre de 2014. Y segundo, los conflictos salariales mantenidos por los actores, la CBS y los productores, acordando establecerlos de la siguiente manera: Johnny Galecki, Jim Parsons y Kaley Cuoco recibieron un millón de dólares por episodio; Simon Helberg y Kunal Nayyar cobrarían casi 600 000; y Melissa Rauch y Mayim Bialik, casi 250 000 dólares por episodio.',
         link: '/seasons/8',
         start: '22.9.14',
         end: '7.5.15',
@@ -460,6 +465,7 @@ export const seasons: Season[] = [
     {
         number: 9,
         title: 'Temporada 9',
+        description: 'Laurie Metcalf repitió su papel como madre de Sheldon en el primer episodio y Keith Carradine vuelve como padre de Penny en el tercer episodio.',
         link: '/seasons/9',
         start: '21.9.15',
         end: '12.5.16',
@@ -469,6 +475,7 @@ export const seasons: Season[] = [
     {
         number: 10,
         title: 'Temporada 10',
+        description: 'Al igual que la temporada anterior, la primera mitad fue emitida en una noche diferente, debido a que la CBS adquirió los derechos para retransmitir partidos de fútbol las noches del jueves.',
         link: '/seasons/10',
         start: '19.9.16',
         end: '11.5.17',
@@ -478,6 +485,7 @@ export const seasons: Season[] = [
     {
         number: 11,
         title: 'Temporada 11',
+        description: 'En marzo de 2017, la serie fue renovada por un período adicional de dos años, extendiéndose hasta la temporada de 2018-2019 con un total de doce temporadas.',
         link: '/seasons/11',
         start: '25.9.17',
         end: '10.5.18',
@@ -487,6 +495,7 @@ export const seasons: Season[] = [
     {
         number: 12,
         title: 'Temporada 12',
+        description: 'Esta fue la última temporada de la serie, finalizando el 16 de mayo de 2019.',
         link: '/seasons/12',
         start: '24.9.18',
         end: '16.5.19',
