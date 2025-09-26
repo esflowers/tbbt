@@ -420,152 +420,152 @@ export const seasons: Season[] = [
         start: '23.9.10',
         end: '19.5.11',
         nEpisodes: 24,
-        episodes: [/*
+        episodes: [
             {
                 number: 64,
                 title: 'La manipulación robótica',
                 release: '23.9.10',
-                link: ''
+                link: 'https://mega.nz/embed/hvJyARQK#o5-UKFJbbIuYkIYTMgtLzQSKkb69mSVL-JHjQ_OW8J4'
             },
             {
                 number: 65,
                 title: 'La amplificación de las verduras',
                 release: '30.9.10',
-                link: ''
+                link: 'https://mega.nz/embed/djIB2LDJ#S2Tpnt43ypzAMkCeSfs0wwZopHMrceIBrYL50Cy8Sxk'
             },
             {
                 number: 66,
                 title: 'Una sustitución brillante',
                 release: '7.10.10',
-                link: ''
+                link: 'https://mega.nz/embed/I6gyiCCR#kySUWj55816K6PznWlumWRttlyTkghBWyd0xEP2jZg8'
             },
             {
                 number: 67,
                 title: 'La desviación de la troll que estaba como un camión',
                 release: '14.10.10',
-                link: ''
+                link: 'https://mega.nz/embed/4vRAzSzQ#HD9dwtPlLgROKH6FS7gpuKeMMHphhCLSvr2xNuxoc_Q'
             },
             {
                 number: 68,
                 title: 'La emanación de la desesperación',
                 release: '21.10.10',
-                link: ''
+                link: 'https://mega.nz/embed/k3InHAiR#AHvshNbiz04ho90_Gvqobt54dFP6GZK6Kx3MSj2lG4g'
             },
             {
                 number: 69,
                 title: 'La fórmula del pub irlandés',
                 release: '28.10.10',
-                link: ''
+                link: 'https://mega.nz/embed/MuBFkIAL#Q2E8QhptzrrUXDkNRj9md6hbSyb3811ZI_HpcjgGPU8'
             },
             {
                 number: 70,
                 title: 'La insuficiencia de la disculpa',
                 release: '4.11.10',
-                link: ''
+                link: 'https://mega.nz/embed/EjZFnCyA#lOJMbV6uLuPOi7VczlFB_vTkDjFWHRnXFi-cElP_4wQ'
             },
             {
                 number: 71,
                 title: 'La excitación de 21 segundos',
                 release: '11.11.10',
-                link: ''
+                link: 'https://mega.nz/embed/suoGVabY#fG2uzJCfSrX3fVXjBDo4hpzX8_vPzkQcgmvtC-Iqw84'
             },
             {
                 number: 72,
                 title: 'La complejidad del novio',
                 release: '18.11.10',
-                link: ''
+                link: 'https://mega.nz/embed/5v4C1YoY#LK3dPvsCrpacraJrdG2oiPZcXbxwpNXjgWW8T0EqFNw'
             },
             {
                 number: 73,
                 title: 'La hipótesis del parásito alienígena',
                 release: '9.12.10',
-                link: ''
+                link: 'https://mega.nz/embed/V3AXmbxY#jSwe8K1abNjWK7SCOCwex9yCPqQtdUJBnXTG791U6qI'
             },
             {
                 number: 74,
                 title: 'La Liga de la Justicia: Recombinación',
                 release: '16.12.10',
-                link: ''
+                link: 'https://mega.nz/embed/QiJ3kCTb#HxdJjSteCY3aPIxUaLYkXbLDfCHfW3rITLp2HaGQrDI'
             },
             {
                 number: 75,
                 title: 'La utilización de los pantalones de autobús',
                 release: '6.1.11',
-                link: ''
+                link: 'https://mega.nz/embed/JiZDVICR#4u3Mw6-Vf00O3itEz7nwa5uE25IYVGfJuAhq6SfxlGc'
             },
             {
                 number: 76,
                 title: 'El coche del amor',
                 release: '20.1.11',
-                link: ''
+                link: 'https://mega.nz/embed/orpkHSzC#_16L4l0P59ZZY_71Rby39qZzEOKxOKnAj4k149b2IXc'
             },
             {
                 number: 77,
                 title: 'El catalizador de actores',
                 release: '3.2.11',
-                link: ''
+                link: 'https://mega.nz/embed/p6pnmKIL#AcTe88VuHbx_E-rR7MiQ4scQ_gXljVsbqBi0UwYofWw'
             },
             {
                 number: 78,
                 title: 'El factor benefactor',
                 release: '10.2.11',
-                link: ''
+                link: 'https://mega.nz/embed/4uRDRAKD#XkCja1jcEkzhdx7WQ9EjDDDc5ktEnxvsBV_jER2PnrA'
             },
             {
                 number: 79,
                 title: 'La fórmula de la cohabitación',
                 release: '17.2.11',
-                link: ''
+                link: 'https://mega.nz/embed/hjxCmC5C#yS7VBI1F02dwWnI4ePxZSdfayMZMsuEyMbcIxirXqjw'
             },
             {
                 number: 80,
                 title: 'La derivación de un brindis',
                 release: '24.2.11',
-                link: ''
+                link: 'https://mega.nz/embed/8241UB7Q#OwHZ-0e0tqCr75Q6Sn8-9nkt6j4jVc7UkUJI9zuLoXQ'
             },
             {
                 number: 81,
                 title: 'La aproximación a la prestidigitación',
                 release: '10.3.11',
-                link: ''
+                link: 'https://mega.nz/embed/F2YUXDBT#XlMeBmTvIzD_JEkYTwu_idwujczuFIWT5Kzk6xjStqU'
             },
             {
                 number: 82,
                 title: 'En guerra con Zarnecki',
                 release: '31.3.11',
-                link: ''
+                link: 'https://mega.nz/embed/RqhjiSiB#UWuMpWlPpbRT1wJMbcai8aDKdw9dLsWABHlaAsIkUeM'
             },
             {
                 number: 83,
                 title: 'La germinación de las hierbas de jardín',
                 release: '7.4.11',
-                link: ''
+                link: 'https://mega.nz/embed/U3ITjaqK#Z_flw2nUFdAsW1_CyqOYiPMpbXI5ostEm-fV7ry7Xcg'
             },
             {
                 number: 84,
                 title: 'La disección del contrato',
                 release: '28.4.11',
-                link: ''
+                link: 'https://mega.nz/embed/wzgnkA6L#hApaD_iQ-nKhueZXn9Oizge0LvAvq-_f0IzcrPKQdvA'
             },
             {
                 number: 85,
                 title: 'La implementación del ñu',
                 release: '5.5.11',
-                link: ''
+                link: 'https://mega.nz/embed/RmRDkApa#iztIOYTwqBXie7vCqHl3tT2YHoKv0488r59lbxN_-0g'
             },
             {
                 number: 86,
                 title: 'La reacción al compromiso',
                 release: '12.5.11',
-                link: ''
+                link: 'https://mega.nz/embed/cz40lJTC#rB9V_gi1UqRkRyWN-sakmz9BQi6Mks0_sD4k9OZAKXA'
             },
             {
                 number: 87,
                 title: 'La Gran Transmogrificación',
                 release: '19.5.11',
-                link: ''
+                link: 'https://mega.nz/embed/IuogyY5b#X8ODT30S5S4gsHTb-bO8SM9d8kXvP_R2PdP9O7ENwWE'
             }
-        */]
+        ]
     },
     {
         number: 5,
@@ -575,152 +575,152 @@ export const seasons: Season[] = [
         start: '22.9.11',
         end: '10.5.12',
         nEpisodes: 24,
-        episodes: [/*
+        episodes: [
             {
                 number: 88,
                 title: 'El análisis del reflejo de golfa',
                 release: '22.9.11',
-                link: ''
+                link: 'https://mega.nz/embed/hj5SlaDA#3doUg1gzxO8-TcUUPLSVzZKEqfZHcqY--kjtcGUrNxw'
             },
             {
                 number: 89,
                 title: 'La teoría de la plaga',
                 release: '22.9.11',
-                link: ''
+                link: 'https://mega.nz/embed/pqIGTYQA#Jku45VAByNG16av4_VZoagmJf9WYg0VSUvFPgUEFK5k'
             },
             {
                 number: 90,
                 title: 'La extrapolación del tirón de ingle',
                 release: '29.9.11',
-                link: ''
+                link: 'https://mega.nz/embed/xz5hRY6D#h4vc3I12yDtUKiQj84NCQBnydtLs82Dxsa8k8jT6TUE'
             },
             {
                 number: 91,
                 title: 'El catalizador sordomudo',
                 release: '6.10.11',
-                link: ''
+                link: 'https://mega.nz/embed/F2ZTHY4T#uS9uJpgCWijsyUtk1cd9goL8RRYhjIuUe6f1V-qRc7k'
             },
             {
                 number: 92,
                 title: 'La reacción del cohete ruso',
                 release: '13.10.11',
-                link: ''
+                link: 'https://mega.nz/embed/ZuBTzbaZ#gQf3moAFK6hfSQeK73qLQix_bcWCMC70POQFrhQ7db0'
             },
             {
                 number: 93,
                 title: 'La revelación de la rinitis',
                 release: '20.10.11',
-                link: ''
+                link: 'https://mega.nz/embed/hmB3BB5C#ybKpxbdhrQzDjpJIV0vCRxOow23_1N1jTnyWrEuOxfw'
             },
             {
                 number: 94,
                 title: 'La fluctuación del chico bueno',
                 release: '27.10.11',
-                link: ''
+                link: 'https://mega.nz/embed/JnAUmACB#MPCPGSbGdOk7F6vcA4dRsYMxR2pPahALg3qctTqOUMU'
             },
             {
                 number: 95,
                 title: 'La permutación del aislamiento',
                 release: '3.11.11',
-                link: ''
+                link: 'https://mega.nz/embed/o3BnFbrb#6QsvFi37KXdi-YEz-O1-cX9om9XYeBaBd-mZ9OST9m8'
             },
             {
                 number: 96,
                 title: 'La difusión de la ornitofobia',
                 release: '10.11.11',
-                link: ''
+                link: 'https://mega.nz/embed/NrZWSTTL#2g0Jq8cpdXFr_XxWKie-Tpg1cPb70b8quVycSV0GCkI'
             },
             {
                 number: 97,
                 title: 'La adquisición de la escupidera de fuego',
                 release: '17.11.11',
-                link: ''
+                link: 'https://mega.nz/embed/MiZEkRaR#hjddxtwk1eyR0WkW0o_1NafhgCylr8oZB-2OPZSyK_8'
             },
             {
                 number: 98,
                 title: 'La recurrencia de Speckerman',
                 release: '8.12.11',
-                link: ''
+                link: 'https://mega.nz/embed/Q2RSxASY#hVsSyvNJ9O1WUJjkrzicZOBGc8n9bINrNfDT5aLYi0g'
             },
             {
                 number: 99,
                 title: 'La maniobra del objeto brillante',
                 release: '12.1.12',
-                link: ''
+                link: 'https://mega.nz/embed/4zhnEKBL#K4l-cMAOKTqDviKKnRQ2VXJxptBZ8s6CGt6uYmdKB4E'
             },
             {
                 number: 100,
                 title: 'La hipótesis de la recombinación',
                 release: '19.1.12',
-                link: ''
+                link: 'https://mega.nz/embed/NqpzBYoD#kvPh1BwwGvBWeDuVfcX3Z1sEVrApOkYDj344hkXrcnM'
             },
             {
                 number: 101,
                 title: 'El inicio de la versión Beta',
                 release: '26.1.12',
-                link: ''
+                link: 'https://mega.nz/embed/cyQ2GBDT#8dzK4SIC-KQH56FMDuQeCfjGzHUwag6aGv2ftmqz7h4'
             },
             {
                 number: 102,
                 title: 'La contracción amistosa',
                 release: '2.2.12',
-                link: ''
+                link: 'https://mega.nz/embed/FuIWhSRA#uVn__s6bzhl-0D8v4NZxgHP38ceqT3UHXTPqX4n1Sf8'
             },
             {
                 number: 103,
                 title: 'La solución vacacional',
                 release: '9.2.12',
-                link: ''
+                link: 'https://mega.nz/embed/oroFiJoZ#XKqwWDC-vyNsqY9lHqxe09ruztB4Ro6ZWTo0irum6fk'
             },
             {
                 number: 104,
                 title: 'La desintegración Rothman»',
                 release: '16.2.12',
-                link: ''
+                link: 'https://mega.nz/embed/w3JhVC6Q#3ETuEzI_YJPOrR5Y2rztldB1rA5sEE7GKmyQPC4-4SY'
             },
             {
                 number: 105,
                 title: 'La Transformación Licantrópica',
                 release: '23.2.12',
-                link: ''
+                link: 'https://mega.nz/embed/AmoRmQyb#g4YHCNxf3AglpW4OS3iFvfyLR_Y0iNvnh4OZ1s6a-SY'
             },
             {
                 number: 106,
                 title: 'El vórtice de fin de semana',
                 release: '8.3.12',
-                link: ''
+                link: 'https://mega.nz/embed/QvQEGLhB#XkJVc8cw1Dudp89h-MyLhMZxwbeQ-Z6ZyqmBrScH96k'
             },
             {
                 number: 107,
                 title: 'La disfunción del transportador',
                 release: '29.3.12',
-                link: ''
+                link: 'https://mega.nz/embed/Yq4yjIZY#H6QI9HO28mUj0CVqxbQ3indCKqTRME7XFhEgrpJlcxg'
             },
             {
                 number: 108,
                 title: 'La excitación Hawking',
                 release: '5.4.12',
-                link: ''
+                link: 'https://mega.nz/embed/FuIljZQK#_emoypztvYo9EWkXxo2qc2CGki5tIurKkIKmDosKvSQ'
             },
             {
                 number: 109,
                 title: 'La convergencia de solteros',
                 release: '26.4.12',
-                link: ''
+                link: 'https://mega.nz/embed/ozJBRKrB#3waU_CGzM094ouROCrgXVhmMj4ATXKgo3AUDnuRloxM'
             },
             {
                 number: 110,
                 title: 'La aceleración del lanzamiento',
                 release: '3.5.12',
-                link: ''
+                link: 'https://mega.nz/embed/AqgxQC7C#SLH-bxai3SL2n84uyH6LkmFEqCFcZJ6DWHgLML4_Mgg'
             },
             {
                 number: 111,
                 title: 'La reflexión del conteo',
                 release: '10.5.12',
-                link: ''
+                link: 'https://mega.nz/embed/I7gXxCYB#sCiyNESY2iQGzNnjLn26cOmBNVOobpnWz9olIHEVCmY'
             }
-        */]
+        ]
     },
     {
         number: 6,
