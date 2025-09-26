@@ -3,6 +3,7 @@ import '../styles/global.css';
 import { title, preview, description, site } from '../data';
 import Analytics from '@vercel/analytics/astro';
 import Header from './Header.astro';
+import Alert from '../components/Alert.astro';
 
 interface Props {
 	page?: string
@@ -50,5 +51,7 @@ const { page = title } = Astro.props as Props;
 	</main>
 
 	<slot name="other" />
+
+	<Alert />
 </body>
 </html>
