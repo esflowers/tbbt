@@ -732,147 +732,147 @@ export const seasons: Season[] = [
         nEpisodes: 24,
         episodes: [/*
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 112,
+                title: 'La variable de la cita nocturna',
+                release: '27.9.12',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 113,
+                title: 'La fluctuación del desacoplamiento',
+                release: '4.10.12',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 114,
+                title: 'La observación del Bosón de Higgs',
+                release: '11.10.12',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 115,
+                title: 'La minimización de la reentrada',
+                release: '18.10.12',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 116,
+                title: 'La excitación holográfica',
+                release: '25.10.12',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 117,
+                title: 'La aniquilación del extracto',
+                release: '1.11.12',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 118,
+                title: 'La configuración de la cohabitación',
+                release: '8.11.12',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 119,
+                title: 'La peculiaridad del 43',
+                release: '15.11.12',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 120,
+                title: 'La escalada por la plaza de aparcamiento',
+                release: '29.11.12',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 121,
+                title: 'Extirpando las entrañas de un pez',
+                release: '6.12.12',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 122,
+                title: 'La simulación Santa Claus',
+                release: '13.12.12',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 123,
+                title: 'La equivalencia del sándwich vegetal',
+                release: '3.1.13',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 124,
+                title: 'La expedición a Bakersfield',
+                release: '10.1.13',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 125,
+                title: 'La inversión Cooper-Kripke',
+                release: '31.1.13',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 126,
+                title: 'La segmentación de los finales desvelados',
+                release: '31.1.13',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 127,
+                title: 'La prueba tangible del afecto',
+                release: '14.2.13',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 128,
+                title: 'El aislamiento del monstruo',
+                release: '21.2.13',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 129,
+                title: 'La implementación de la obligación contractual',
+                release: '7.3.13',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 130,
+                title: 'La reconfiguración del armario',
+                release: '14.3.13',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 131,
+                title: 'La turbulencia de la tenencia',
+                release: '4.4.13',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 132,
+                title: 'La alternativa de la finalización',
+                release: '25.4.13',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 133,
+                title: 'La resurgencia del protón',
+                release: '2.5.13',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 134,
+                title: 'El potencial del conjuro de amor',
+                release: '9.5.13',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 135,
+                title: 'La reacción de la despedida',
+                release: '16.5.13',
                 link: ''
             }
         */]
@@ -887,147 +887,147 @@ export const seasons: Season[] = [
         nEpisodes: 24,
         episodes: [/*
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 136,
+                title: 'La insuficiencia Hofstadter',
+                release: '26.9.13',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 137,
+                title: 'La verificación del engaño',
+                release: '26.9.13',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 138,
+                title: 'El vórtex de la yincana',
+                release: '3.10.13',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 139,
+                title: 'La minimización del arca perdida',
+                release: '10.10.13',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 140,
+                title: 'La proximidad del lugar de trabajo',
+                release: '17.10.13',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 141,
+                title: 'La resonancia del romance',
+                release: '24.10.13',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 142,
+                title: 'El protón desplazado',
+                release: '7.11.13',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 143,
+                title: 'La simulación del picor de cerebro',
+                release: '14.11.13',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 144,
+                title: 'El desacoplamiento de Acción de Gracias',
+                release: '21.11.13',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 145,
+                title: 'La disipación del descubrimiento',
+                release: '5.12.13',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 146,
+                title: 'La extracción de Cooper',
+                release: '12.12.13',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 147,
+                title: 'La ramificación de la indecisión',
+                release: '2.1.14',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 148,
+                title: 'La reorganización de la profesión',
+                release: '9.1.14',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 149,
+                title: 'El conflicto de la convención',
+                release: '30.1.14',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 150,
+                title: 'La manipulación de la locomoción',
+                release: '6.2.14',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 151,
+                title: 'La polarización de la mesa',
+                release: '27.2.14',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 152,
+                title: 'La turbulencia de la amistad',
+                release: '6.3.14',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 153,
+                title: 'Observando a mamá',
+                release: '13.3.14',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 154,
+                title: 'La indecisión de la amalgamación',
+                release: '3.4.14',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 155,
+                title: 'La disyunción de la relación',
+                release: '10.4.14',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 156,
+                title: 'La recurrencia del "Todo es posible"',
+                release: '24.4.14',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 157,
+                title: 'La transmogrificación del protón',
+                release: '1.5.14',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 158,
+                title: 'La disolución del gorila',
+                release: '8.5.14',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 159,
+                title: 'La combustión del statu quo',
+                release: '15.5.14',
                 link: ''
             }
         */]
@@ -1042,147 +1042,147 @@ export const seasons: Season[] = [
         nEpisodes: 24,
         episodes: [/*
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 160,
+                title: 'La interrupción de la locomoción',
+                release: '22.9.14',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 161,
+                title: 'La solución del profesor adjunto',
+                release: '22.9.14',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 162,
+                title: 'La insuficiencia del primer lanzamiento',
+                release: '29.9.14',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 163,
+                title: 'La reverberación de la interconexión',
+                release: '6.10.14',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 164,
+                title: 'La atenuación del foco',
+                release: '13.10.14',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 165,
+                title: 'La aproximación de la expedición',
+                release: '20.10.14',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 166,
+                title: 'La agitación del malentendido',
+                release: '30.10.14',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 167,
+                title: 'La equivalencia del baile',
+                release: '6.11.14',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 168',
+                title: 'La desviación del tabique',
+                release: '13.11.14',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 169,
+                title: 'La reflexión del champán',
+                release: '20.11.14',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 170,
+                title: 'La infiltración de la sala limpia',
+                release: '11.12.14',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 171,
+                title: 'La desintegración de la sonda espacial',
+                release: '8.1.15',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 172,
+                title: 'La optimización de la ansiedad',
+                release: '29.1.15',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 173,
+                title: 'La manifestación del trol',
+                release: '5.2.15',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 174,
+                title: 'La regeneración de la tienda de historietas',
+                release: '19.2.15',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 175,
+                title: 'La aceleración de la intimidad',
+                release: '26.2.15',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 176,
+                title: 'La aplicación de la colonización',
+                release: '5.3.15',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 177,
+                title: 'La termalización del sobrante',
+                release: '12.3.15',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 178,
+                title: 'La incursión de Skywalker',
+                release: '2.4.15',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 179,
+                title: 'La implementación de la fortificación',
+                release: '9.4.15',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 180,
+                title: 'La degradación de la comunicación',
+                release: '16.4.15',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 181,
+                title: 'La transmisión de la graduación',
+                release: '23.4.15',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 182,
+                title: 'La combustión materna',
+                release: '30.4.15',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 183,
+                title: 'La determinación del compromiso',
+                release: '7.5.15',
                 link: ''
             }
         */]
