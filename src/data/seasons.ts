@@ -730,152 +730,152 @@ export const seasons: Season[] = [
         start: '27.9.12',
         end: '16.5.13',
         nEpisodes: 24,
-        episodes: [/*
+        episodes: [
             {
                 number: 112,
                 title: 'La variable de la cita nocturna',
                 release: '27.9.12',
-                link: ''
+                link: 'https://mega.nz/embed/omJUgRxR#YL7C8fUsP6lREhClOI3AlOTgqt8_ijtPoANls3_v89g'
             },
             {
                 number: 113,
                 title: 'La fluctuación del desacoplamiento',
                 release: '4.10.12',
-                link: ''
+                link: 'https://mega.nz/embed/hiRUSDhB#88ATn1ZqnGSA7gQPoAyN4yhlMgfwEq5-K9Mh5vK3PeI'
             },
             {
                 number: 114,
                 title: 'La observación del Bosón de Higgs',
                 release: '11.10.12',
-                link: ''
+                link: 'https://mega.nz/embed/B3QHgYxA#ljMRPDS_iETOWQ_QWUuNLFFBzlWZkGHTuiZVSwgtZgs'
             },
             {
                 number: 115,
                 title: 'La minimización de la reentrada',
                 release: '18.10.12',
-                link: ''
+                link: 'https://mega.nz/embed/MuY3BSyZ#zI5qRiTBtTC3qgyjELHJKz61ZGCTAYBBGt1uc0OnxZE'
             },
             {
                 number: 116,
                 title: 'La excitación holográfica',
                 release: '25.10.12',
-                link: ''
+                link: 'https://mega.nz/embed/8iJyQZ4B#ciTyXWj26lmLRwlV2HTeU5b0vyjnoGEOd49jBVpOEe0'
             },
             {
                 number: 117,
                 title: 'La aniquilación del extracto',
                 release: '1.11.12',
-                link: ''
+                link: 'https://mega.nz/embed/9uJxFKzZ#onIdgb6tDYY4TTHJfEQ6UxLZ6OFYltFKfZK4gr8MvBc'
             },
             {
                 number: 118,
                 title: 'La configuración de la cohabitación',
                 release: '8.11.12',
-                link: ''
+                link: 'https://mega.nz/embed/YvIwGKoA#AOV7ZBWTFV6MCgg3yTNVdzbLJwDpFwg4jTiBH0OFcdg'
             },
             {
                 number: 119,
                 title: 'La peculiaridad del 43',
                 release: '15.11.12',
-                link: ''
+                link: 'https://mega.nz/embed/ZmRRDYra#c3Kt-krmf6BHqIK17jAfneAPMEUjUdLCVU9OSCHwA_c'
             },
             {
                 number: 120,
                 title: 'La escalada por la plaza de aparcamiento',
                 release: '29.11.12',
-                link: ''
+                link: 'https://mega.nz/embed/l3pFURoS#2ef0_4AgdkaWwdybpuHcdLTmBKHUqkiEde_dbLe2afk'
             },
             {
                 number: 121,
                 title: 'Extirpando las entrañas de un pez',
                 release: '6.12.12',
-                link: ''
+                link: 'https://mega.nz/embed/UqJxxIZS#hgz72ji2leosSbezIGhOTiAi0BZFtKOXOfkcVYGpzVg'
             },
             {
                 number: 122,
                 title: 'La simulación Santa Claus',
                 release: '13.12.12',
-                link: ''
+                link: 'https://mega.nz/embed/V6BEQBCC#jvCsJoTENAPblcM7qQ1z2kxdmwYGxpdIoIepJIYgiYA'
             },
             {
                 number: 123,
                 title: 'La equivalencia del sándwich vegetal',
                 release: '3.1.13',
-                link: ''
+                link: 'https://mega.nz/embed/ku4QAYrA#WOXKb-J5azRLrGXwRWFkbadgwJIvZsodvKuJfKphvrs'
             },
             {
                 number: 124,
                 title: 'La expedición a Bakersfield',
                 release: '10.1.13',
-                link: ''
+                link: 'https://mega.nz/embed/t7B1hRrT#lVV0t2ZWvh_1i566ycnSSA2S4-c1yCeLSsysjP5geMM'
             },
             {
                 number: 125,
                 title: 'La inversión Cooper-Kripke',
                 release: '31.1.13',
-                link: ''
+                link: 'https://mega.nz/embed/MqhgjKqY#1wMe2i6_E29rsKOeRf-KYgdYcXGcd3woqcZqBeMcXwA'
             },
             {
                 number: 126,
                 title: 'La segmentación de los finales desvelados',
                 release: '31.1.13',
-                link: ''
+                link: 'https://mega.nz/embed/QmxwwK7R#AODOWrjXxcqnpDamxV52qzBlp2COYhW6v8_lGGpCObg'
             },
             {
                 number: 127,
                 title: 'La prueba tangible del afecto',
                 release: '14.2.13',
-                link: ''
+                link: 'https://mega.nz/embed/cqpjRLRC#Qr7rYTBx-NTXOzyZ2XFATlHXvcBwOjrGQl5Z9PnM8lo'
             },
             {
                 number: 128,
                 title: 'El aislamiento del monstruo',
                 release: '21.2.13',
-                link: ''
+                link: 'https://mega.nz/embed/krQUjaoK#hWvI9cUutNc6AKABbUPgiqWVlyuMZ_Z6Q3nLBVIdHaM'
             },
             {
                 number: 129,
                 title: 'La implementación de la obligación contractual',
                 release: '7.3.13',
-                link: ''
+                link: 'https://mega.nz/embed/F6ZhmB7T#Y4lWcqkxr0-kuKFDVZRADaF5_zUXyLCJIC7eNTFbDyU'
             },
             {
                 number: 130,
                 title: 'La reconfiguración del armario',
                 release: '14.3.13',
-                link: ''
+                link: 'https://mega.nz/embed/Qn4RRJwB#_fwZUwFBPoGnkSDngcQx_OgQFdECIN2CCSY6Ci8TEaE'
             },
             {
                 number: 131,
                 title: 'La turbulencia de la tenencia',
                 release: '4.4.13',
-                link: ''
+                link: 'https://mega.nz/embed/ErYgDRSL#pbJjmZTVdwlkKI0bxIubKQ1v7DadJRh6JCzYKXJy87I'
             },
             {
                 number: 132,
                 title: 'La alternativa de la finalización',
                 release: '25.4.13',
-                link: ''
+                link: 'https://mega.nz/embed/8vIFwTLD#iTrOg8Ea4g4I-Q-Ba3Crxf3eYLB-KV_1lAPVgGmSL2A'
             },
             {
                 number: 133,
                 title: 'La resurgencia del protón',
                 release: '2.5.13',
-                link: ''
+                link: 'https://mega.nz/embed/oyJj1Z4b#6qLm9e526bPM1lxovTjZ3GgsI7EZmC1epnSABjmr3K0'
             },
             {
                 number: 134,
                 title: 'El potencial del conjuro de amor',
                 release: '9.5.13',
-                link: ''
+                link: 'https://mega.nz/embed/suQA3aRS#symWM_ui5joK4v_mCVd678_sP9uzOz3SVAmJ3BgHa80'
             },
             {
                 number: 135,
                 title: 'La reacción de la despedida',
                 release: '16.5.13',
-                link: ''
+                link: 'https://mega.nz/embed/xiAGkLpR#mn4yV0vGfqm_hQQddslIBT9NQPWycfNrIxbTk-SNX_A'
             }
-        */]
+        ]
     },
     {
         number: 7,
@@ -885,152 +885,152 @@ export const seasons: Season[] = [
         start: '26.9.13',
         end: '15.5.14',
         nEpisodes: 24,
-        episodes: [/*
+        episodes: [
             {
                 number: 136,
                 title: 'La insuficiencia Hofstadter',
                 release: '26.9.13',
-                link: ''
+                link: 'https://mega.nz/embed/wiRCDCwT#psHjjAYTQuccjD8IkPR-Pkz5Wg-_mmsqPWw3SWV-bws'
             },
             {
                 number: 137,
                 title: 'La verificación del engaño',
                 release: '26.9.13',
-                link: ''
+                link: 'https://mega.nz/embed/EzJFUKwL#qNfg9l9ETa4aAcKIfomCJurSTkKv8c840TGsCgXZ9xM'
             },
             {
                 number: 138,
                 title: 'El vórtex de la yincana',
                 release: '3.10.13',
-                link: ''
+                link: 'https://mega.nz/embed/sugQTTAS#m7ejBaF1RjfjoiQZx_xG38QNRnMpg9ggu8k2kPLnPgc'
             },
             {
                 number: 139,
                 title: 'La minimización del arca perdida',
                 release: '10.10.13',
-                link: ''
+                link: 'https://mega.nz/embed/w25iFYzR#BKZLME3bfaJlXvKkCnvRj8voE8puxM_r0ReGbaDVNU8'
             },
             {
                 number: 140,
                 title: 'La proximidad del lugar de trabajo',
                 release: '17.10.13',
-                link: ''
+                link: 'https://mega.nz/embed/BnogRSaD#t_cL6-01Nv638G5gAY_11n9OYmRAPfo14a-eXrbWYQs'
             },
             {
                 number: 141,
                 title: 'La resonancia del romance',
                 release: '24.10.13',
-                link: ''
+                link: 'https://mega.nz/embed/E7RA0IIY#92T2LLsqPwW_nMuyYjzQk3mjqmd7KLWIvqH7olmxV5M'
             },
             {
                 number: 142,
                 title: 'El protón desplazado',
                 release: '7.11.13',
-                link: ''
+                link: 'https://galeriatvseries.blogspot.com/2022/04/blog-post_90.html'
             },
             {
                 number: 143,
                 title: 'La simulación del picor de cerebro',
                 release: '14.11.13',
-                link: ''
+                link: 'https://mega.nz/embed/lyw1CR4R#QYg_hEiwGfmPyRLul45-m4B6KnXxRH66Cuzn4ZG0zJk'
             },
             {
                 number: 144,
                 title: 'El desacoplamiento de Acción de Gracias',
                 release: '21.11.13',
-                link: ''
+                link: 'https://mega.nz/embed/RnAkFQYb#H0YL4c0Kd8DL0R5waVBUD9kOmWFow5ZD40n0ms1euGk'
             },
             {
                 number: 145,
                 title: 'La disipación del descubrimiento',
                 release: '5.12.13',
-                link: ''
+                link: 'https://mega.nz/embed/h2xEWYjL#8zM7xtXeiTK0Yx4r72I2-PM8ZkHkKJ1Ll40gRynDWi0'
             },
             {
                 number: 146,
                 title: 'La extracción de Cooper',
                 release: '12.12.13',
-                link: ''
+                link: 'https://mega.nz/embed/Q3g23KIZ#2_nzZf-pdnHFtJoaOntsn-4xDIypp--Ek0gRF_Rg8hE'
             },
             {
                 number: 147,
                 title: 'La ramificación de la indecisión',
                 release: '2.1.14',
-                link: ''
+                link: 'https://mega.nz/embed/9io3mIaS#oDCB_p8_Xz_SgYICvmLX3J2fqw_SebxL3VQ9KzDPYJo'
             },
             {
                 number: 148,
                 title: 'La reorganización de la profesión',
                 release: '9.1.14',
-                link: ''
+                link: 'https://mega.nz/embed/BrQGgBZY#zCsTThS68smXT7WRsa6y6fY6xYYQshTCJsLFxTeedSA'
             },
             {
                 number: 149,
                 title: 'El conflicto de la convención',
                 release: '30.1.14',
-                link: ''
+                link: 'https://mega.nz/embed/8jxR0bAT#GKCXpS7OUH76oL3Eq0MmR-3X2aqkC2YL7An5rGLVhOo'
             },
             {
                 number: 150,
                 title: 'La manipulación de la locomoción',
                 release: '6.2.14',
-                link: ''
+                link: 'https://mega.nz/embed/83QhhbjK#2WVgnSsZlJM0Yu7z8WPatuEhSOvSaWqXtR80xHAY-xw'
             },
             {
                 number: 151,
                 title: 'La polarización de la mesa',
                 release: '27.2.14',
-                link: ''
+                link: 'https://mega.nz/embed/h2gByRjR#OEKls52S75WNuws7Q3QgtGumxQBhfpclr8-Y0jqDC-I'
             },
             {
                 number: 152,
                 title: 'La turbulencia de la amistad',
                 release: '6.3.14',
-                link: ''
+                link: 'https://mega.nz/embed/li5TlR5R#ul-0lpEIkt3oLD8mjqanW9oGat-C9fKdFCI7oqVEVTY'
             },
             {
                 number: 153,
                 title: 'Observando a mamá',
                 release: '13.3.14',
-                link: ''
+                link: 'https://mega.nz/embed/tiBWRTKI#dltFB8ue1hZc7tFoY-mo1rOfvFJBtG1ENeciK7-19ZQ'
             },
             {
                 number: 154,
                 title: 'La indecisión de la amalgamación',
                 release: '3.4.14',
-                link: ''
+                link: 'https://mega.nz/embed/9r5V2aZL#ttTSYJzTmnSG4AxUy_vdFCDeHVc3YhxYTzAs4XOsSQw'
             },
             {
                 number: 155,
                 title: 'La disyunción de la relación',
                 release: '10.4.14',
-                link: ''
+                link: 'https://mega.nz/embed/NrQwHZ7A#U7fRak95XXR5vXWX9ZSTJyrV5thGvCMSP1zYHwMUi_E'
             },
             {
                 number: 156,
                 title: 'La recurrencia del "Todo es posible"',
                 release: '24.4.14',
-                link: ''
+                link: 'https://mega.nz/embed/E6gwVKoL#aI-qtQiz8IyMDIk2sn3bM3La03hz7yctHKfhf5AS-HA'
             },
             {
                 number: 157,
                 title: 'La transmogrificación del protón',
                 release: '1.5.14',
-                link: ''
+                link: 'https://mega.nz/embed/E6gwVKoL#aI-qtQiz8IyMDIk2sn3bM3La03hz7yctHKfhf5AS-HA'
             },
             {
                 number: 158,
                 title: 'La disolución del gorila',
                 release: '8.5.14',
-                link: ''
+                link: 'https://mega.nz/embed/VuxzxbSY#CjBgYGbp2H7FqXu9lJVR_YE-OV1_we2e7WE88_lUrR0'
             },
             {
                 number: 159,
                 title: 'La combustión del statu quo',
                 release: '15.5.14',
-                link: ''
+                link: 'https://mega.nz/embed/QzoSXSDJ#_sOuxPgTX6TV3CZq6CjLhfQ8d26iawETIDbT-yb-SaY'
             }
-        */]
+        ]
     },
     {
         number: 8,
@@ -1040,152 +1040,152 @@ export const seasons: Season[] = [
         start: '22.9.14',
         end: '7.5.15',
         nEpisodes: 24,
-        episodes: [/*
+        episodes: [
             {
                 number: 160,
                 title: 'La interrupción de la locomoción',
                 release: '22.9.14',
-                link: ''
+                link: 'https://mega.nz/embed/IrhQ2axb#IAS8WBFqegey8g21oaCDqniiLwnRlMnIdeB_b-l5Wug'
             },
             {
                 number: 161,
                 title: 'La solución del profesor adjunto',
                 release: '22.9.14',
-                link: ''
+                link: 'https://mega.nz/embed/12ozHJ5Z#1FZqDfSuL8H-9aerU24id3uMcgxg3UUIvMuTI7tl1wo'
             },
             {
                 number: 162,
                 title: 'La insuficiencia del primer lanzamiento',
                 release: '29.9.14',
-                link: ''
+                link: 'https://mega.nz/embed/8i5HzKzS#mdtaEax3m6kx0xs97fQazfBcg1p8dWliV4JJhouKH6Y'
             },
             {
                 number: 163,
                 title: 'La reverberación de la interconexión',
                 release: '6.10.14',
-                link: ''
+                link: 'https://mega.nz/embed/gzhVDAQC#mZQK7S3gdGTV9FeiAScHEWdH4HsC88dOgX0j59PFV1E'
             },
             {
                 number: 164,
                 title: 'La atenuación del foco',
                 release: '13.10.14',
-                link: ''
+                link: 'https://mega.nz/embed/dipVCYwB#rGqmaer44uap08kajqIs2NjwZWFEG2WqxZSUsTldH6E'
             },
             {
                 number: 165,
                 title: 'La aproximación de la expedición',
                 release: '20.10.14',
-                link: ''
+                link: 'https://mega.nz/embed/UjxinIbK#Qq_3x42fH9L0oY64fySlCEH0A9mPTz7DNzZVrO_soUI'
             },
             {
                 number: 166,
                 title: 'La agitación del malentendido',
                 release: '30.10.14',
-                link: ''
+                link: 'https://mega.nz/embed/pmpQkBhb#emU9oW_9HiN9URNSiTC026fmkCB_1hDtFN2-dhiSM6E'
             },
             {
                 number: 167,
                 title: 'La equivalencia del baile',
                 release: '6.11.14',
-                link: ''
+                link: 'https://mega.nz/embed/VuwVnAjb#vwhRa60nQE3VLZY_d9LobIf0wDsfzd8RExs0DEhGzyQ'
             },
             {
-                number: 168',
+                number: 168,
                 title: 'La desviación del tabique',
                 release: '13.11.14',
-                link: ''
+                link: 'https://mega.nz/embed/szQXmCAJ#kTOQvY8wKuWW5wl2wxhJlMNOvhd6tABy8zEXwIHPaG8'
             },
             {
                 number: 169,
                 title: 'La reflexión del champán',
                 release: '20.11.14',
-                link: ''
+                link: 'https://mega.nz/embed/J3IAiaTS#zihxmQSsxyerNuc1UI7_jS2NcOg1BLqExc35aXTwFuU'
             },
             {
                 number: 170,
                 title: 'La infiltración de la sala limpia',
                 release: '11.12.14',
-                link: ''
+                link: 'https://mega.nz/embed/Qu5RXAwS#mEsnFoUjW0vT2RKEf17WYbrB2bhozosTFbiLkmehbRg'
             },
             {
                 number: 171,
                 title: 'La desintegración de la sonda espacial',
                 release: '8.1.15',
-                link: ''
+                link: 'https://mega.nz/embed/03QACarQ#di3ppLU_uL61t1vhwnPyXW8s1jJ-gqwplJTFX5m6TOQ'
             },
             {
                 number: 172,
                 title: 'La optimización de la ansiedad',
                 release: '29.1.15',
-                link: ''
+                link: 'https://mega.nz/embed/JnogQaLT#af1PnyUt7YOrFtE6Dl0iJtgy7O53p9s21ofrnOlDjjQ'
             },
             {
                 number: 173,
                 title: 'La manifestación del trol',
                 release: '5.2.15',
-                link: ''
+                link: 'https://mega.nz/embed/Z6hBBYDT#I3i039yvkC1POVvWTlC35y2aTXJFYitHMUim3z9jV-s'
             },
             {
                 number: 174,
                 title: 'La regeneración de la tienda de historietas',
                 release: '19.2.15',
-                link: ''
+                link: 'https://mega.nz/embed/ArA1zYgJ#716MOgpiEgaaqZrLNOAnNOqjQVkQUEFnNLUdaKdYw-o'
             },
             {
                 number: 175,
                 title: 'La aceleración de la intimidad',
                 release: '26.2.15',
-                link: ''
+                link: 'https://mega.nz/embed/YnBUVLxS#wxTzuROWALFaFAKiDO5Ss086_4MYrOoVSQzISQ9c8bg'
             },
             {
                 number: 176,
                 title: 'La aplicación de la colonización',
                 release: '5.3.15',
-                link: ''
+                link: 'https://mega.nz/embed/BqQ1RBrS#tkVOHFc2BrUN61wZFJpI-0VPfGRcLgiO8GtrCbpO-Jk'
             },
             {
                 number: 177,
                 title: 'La termalización del sobrante',
                 release: '12.3.15',
-                link: ''
+                link: 'https://mega.nz/embed/g7hXUbyZ#GK1sOXTATl5TLfVDW_PlewDtu6bylxZSfJrLawaer-g'
             },
             {
                 number: 178,
                 title: 'La incursión de Skywalker',
                 release: '2.4.15',
-                link: ''
+                link: 'https://mega.nz/embed/gz4RUKga#s3Vh-aKGV6cZANq5sLWeB5-_C_Y_esLyh4I5QqILNII'
             },
             {
                 number: 179,
                 title: 'La implementación de la fortificación',
                 release: '9.4.15',
-                link: ''
+                link: 'https://mega.nz/embed/YiZlGYxB#K3UO_-W10LZi6FL-mvxZiZ0XvxdfdwWnsXyyFREih94'
             },
             {
                 number: 180,
                 title: 'La degradación de la comunicación',
                 release: '16.4.15',
-                link: ''
+                link: 'https://mega.nz/embed/5qRj0I7T#AdidmspYNKbWcy-8ZsAYkorBk1AYYomMNz0KtHLO9Zw'
             },
             {
                 number: 181,
                 title: 'La transmisión de la graduación',
                 release: '23.4.15',
-                link: ''
+                link: 'https://mega.nz/embed/8mRl3QIZ#nRdBRo_IIcY8Eh-ZtO4V464QSYOYgneda9J45NtlgPA'
             },
             {
                 number: 182,
                 title: 'La combustión materna',
                 release: '30.4.15',
-                link: ''
+                link: 'https://mega.nz/embed/5rhBHDxR#-wngepp6rBmOKnwjTxCRGjHngFB_O1fhU0jOJOPnsXo'
             },
             {
                 number: 183,
                 title: 'La determinación del compromiso',
                 release: '7.5.15',
-                link: ''
+                link: 'https://mega.nz/embed/NnxRTSwZ#2Z_NG8m2yaTtawQ9WMqpYtHjhMEdjlN0GewgvjIyU-0'
             }
-        */]
+        ]
     },
     {
         number: 9,
