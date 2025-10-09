@@ -1507,147 +1507,147 @@ export const seasons: Season[] = [
         nEpisodes: 24,
         episodes: [/*
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 232,
+                title: 'La propuesta de propuesta',
+                release: '25.9.17',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 233,
+                title: 'La reacción de la retracción',
+                release: '2.10.17',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 234,
+                title: 'La integración de la relajación[',
+                release: '9.10.17',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 235,
+                title: 'La implosión de la explosión',
+                release: '16.10.17',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 236,
+                title: 'La contaminación de la colaboración',
+                release: '23.10.17',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 237,
+                title: 'La regeneración de protones',
+                release: '2.11.17',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 238,
+                title: 'La metodología geológica[',
+                release: '9.11.17',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 239,
+                title: 'El retroceso de Tesla',
+                release: '16.11.17',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 240,
+                title: 'El enredo del Bitcoin',
+                release: '30.11.17',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 241,
+                title: 'La erosión de la confianza',
+                release: '7.12.17',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 242,
+                title: 'La reverberación de la celebración',
+                release: '14.12.17',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 243,
+                title: 'La métrica matrimonial[',
+                release: '4.1.18',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 244,
+                title: 'La oscilación Solo',
+                release: '11.1.18',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 245,
+                title: 'La triangulación de la separación[',
+                release: '18.1.18',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 246,
+                title: 'La correlación de la novela',
+                release: '1.2.18',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 247,
+                title: 'La nomenclatura neonatal[',
+                release: '1.3.18',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 248,
+                title: 'La reserva del Ateneo[',
+                release: '8.3.18',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 249,
+                title: 'La excitación por Bill Gates',
+                release: '29.3.18',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 250,
+                title: 'La disociación del inquilino',
+                release: '5.4.18',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 251,
+                title: 'El potencial solitario',
+                release: '12.4.18',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 252,
+                title: 'La polarización del cometa',
+                release: '12.4.18',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 253,
+                title: 'La insuficiencia monetaria',
+                release: '26.4.18',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 254,
+                title: 'La realineación fraternal',
+                release: '3.5.18',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 255,
+                title: 'La asimetría de la pajarita',
+                release: '10.5.18',
                 link: ''
             }
         */]
@@ -1662,147 +1662,147 @@ export const seasons: Season[] = [
         nEpisodes: 24,
         episodes: [/*
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 256,
+                title: 'La configuración conyugal',
+                release: '24.9.18',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 257,
+                title: 'El obsequio de bodas del agujero de gusano',
+                release: '27.9.18',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 258,
+                title: 'El cálculo de la procreación',
+                release: '4.10.18',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 259,
+                title: 'La turbulencia Tam',
+                release: '11.10.18',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 260,
+                title: 'La colisión del planetario',
+                release: '18.10.18',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 261,
+                title: 'La perturbación de la imitación',
+                release: '25.10.18',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 262,
+                title: 'La derivación de la asignación de fondos',
+                release: '1.11.18',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 263,
+                title: 'La desviación de la consumación',
+                release: '8.11.18',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 264,
+                title: 'La referencia de refutación',
+                release: '15.11.18',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 265,
+                title: 'La iluminación de la videocasetera',
+                release: '6.12.18',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 266,
+                title: 'La dispersión del paintball',
+                release: '3.1.19',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 267,
+                title: 'La proposición de la propagación',
+                release: '10.1.19',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 268,
+                title: 'La confirmación de la polarización',
+                release: '17.1.19',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 269,
+                title: 'La manifestación del meteorito',
+                release: '31.1.19',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 270,
+                title: 'La oscilación de la donación',
+                release: '7.2.19',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 271,
+                title: 'El vórtice de calabozos y dragones',
+                release: '21.2.19',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 272,
+                title: 'La valoración de la conferencia',
+                release: '7.3.19',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 273,
+                title: 'La acumulación de premiados',
+                release: '4.4.19',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 274,
+                title: 'La privación de la inspiración',
+                release: '18.4.19',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 275,
+                title: 'La reverberación de la decisión',
+                release: '25.4.19',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 276,
+                title: 'El cisma del plagio',
+                release: '2.4.19',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 277,
+                title: 'La conclusión maternal',
+                release: '9.5.19',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 278,
+                title: 'El cambio constante',
+                release: '16.5.19',
                 link: ''
             },
             {
-                number: ,
-                title: '',
-                release: '24.9.07',
+                number: 279,
+                title: 'El síndrome de Estocolmo',
+                release: '16.5.19',
                 link: ''
             }
         */]
