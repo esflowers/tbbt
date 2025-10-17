@@ -1655,7 +1655,7 @@ export const seasons: Season[] = [
     {
         number: 12,
         title: 'Temporada 12',
-        description: 'Esta fue la última temporada de la serie, finalizando el 16 de mayo de 2019.',
+        description: 'Esta sería la última temporada de la serie, ya que Jim Parsons "estaba listo para abandonar <em>The Big Bang Theory</em>". A pesar de intentar negociar su continuidad, la CBS y Warner Bros. TV decidieron finalizarla en 2019 "dado que no hay espectáculo sin el Dr. Sheldon Cooper".<br>Los últimos dos capítulos están constituidos en uno solo.<br>Esta fue la última temporada de la serie, finalizando el 16 de mayo de 2019.',
         link: '/seasons/12',
         start: '24.9.18',
         end: '16.5.19',
@@ -1794,8 +1794,14 @@ export const seasons: Season[] = [
                 link: 'https://mega.nz/embed/xvp1AIhJ#iO-QW8ZZeV_HFdTswQLpIFISVZOXqTLyJtLFP910ybA'
             },
             {
-                number: 278.279,
-                title: 'El cambio constante — El síndrome de Estocolmo',
+                number: 278,
+                title: 'El cambio constante',
+                release: '16.5.19',
+                link: 'https://mega.nz/embed/dihxzI7J#vlQ3tB6kHBMnBdIPoTaFgeG5Xergh16wrn0siwYVPIQ'
+            },
+            {
+                number: 279,
+                title: 'El síndrome de Estocolmo',
                 release: '16.5.19',
                 link: 'https://mega.nz/embed/dihxzI7J#vlQ3tB6kHBMnBdIPoTaFgeG5Xergh16wrn0siwYVPIQ'
             }
