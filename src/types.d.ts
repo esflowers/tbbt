@@ -12,7 +12,7 @@ export type Link = {
 }
 
 export type Episode = {
-    number: number,
+    number: number | string,
     title: string,
     release: Date,
     link: string

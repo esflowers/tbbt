@@ -1195,152 +1195,152 @@ export const seasons: Season[] = [
         start: '21.9.15',
         end: '12.5.16',
         nEpisodes: 24,
-        episodes: [/*
+        episodes: [
             {
                 number: 184,
                 title: 'La inercia matrimonial',
                 release: '21.9.15',
-                link: ''
+                link: 'https://mega.nz/embed/ZygihKSK#AtUYKnNntexFb0M9QwVtV6nBo2ZXFwbsL3ktHHQOZGY'
             },
             {
                 number: 185,
                 title: 'La oscilación de la separación',
                 release: '28.9.15',
-                link: ''
+                link: 'https://mega.nz/embed/0jI2nKQC#YhVEZ3vmdD-R7zos0xwAiI8QUqDzAUrmV0sRgoOLqIM'
             },
             {
                 number: 186,
                 title: 'La corrosión de la despedida de soltero',
                 release: '5.10.15',
-                link: ''
+                link: 'https://mega.nz/embed/QvoDzAyb#BzUQzVMS0b3_wdx595c-ogamZ6rbuuAKm0ep7YG6U-s'
             },
             {
                 number: 187,
                 title: 'La aproximación a 2003',
                 release: '12.10.15',
-                link: ''
+                link: 'https://mega.nz/embed/N6AiQLbI#kCMiGja0pELADNCe5wpRB-b4fpZ4eXCEPJgArgVERe0'
             },
             {
                 number: 188,
                 title: 'La implementación de la transpiración',
                 release: '19.10.15',
-                link: ''
+                link: 'https://mega.nz/embed/AqpyUBBD#JMaxlchha8xnpLQ8E3C2Fz7_MeYzPFEPc6GxEUOjMJY'
             },
             {
                 number: 189,
                 title: 'La insuficiencia de Helio',
                 release: '26.10.15',
-                link: ''
+                link: 'https://mega.nz/embed/omxxAbaJ#yDF1bWdYQXrySxpDWK7i5hOEOqt9PJPWMFafxRbX2MY'
             },
             {
                 number: 190,
                 title: 'La resonancia de Spock',
                 release: '5.11.15',
-                link: ''
+                link: 'https://mega.nz/embed/J3JE0DBC#1Tfk9aGsGpC9bWyLO7aXznQ-9PmmQQ9aT1KLaoAQ8sc'
             },
             {
                 number: 191,
                 title: 'La observación de la cita misteriosa',
                 release: '12.11.15',
-                link: ''
+                link: 'https://mega.nz/embed/E6oxUTqQ#-gE14q3Ck0tSBx3iT7y45wOA2VtBJHwj_iP-948plcM'
             },
             {
                 number: 192,
                 title: 'La permutación platónica',
                 release: '19.11.15',
-                link: ''
+                link: 'https://mega.nz/embed/5zYG1CqK#ryX3sWwLbelR9xVd_lUIbZchNQ9EMEmvW5m6Mn2kBWo'
             },
             {
                 number: 193,
                 title: 'La Reverberación de la Melodía',
                 release: '10.12.15',
-                link: ''
+                link: 'https://mega.nz/embed/wzoAAA7R#MfTCPkrS0S6sEM0hEtm8z9UVj3m1SENIBa4MWwXV-dM'
             },
             {
                 number: 194,
                 title: 'La excitación de la noche del estreno',
                 release: '17.12.15',
-                link: ''
+                link: 'https://mega.nz/embed/JqxgRRQB#ICdqKdUL29jYSGobchDeza5UKXcS63hb_K2OLi4OLDk'
             },
             {
                 number: 195,
                 title: 'La sublimación de la venta',
                 release: '7.1.16',
-                link: ''
+                link: 'https://mega.nz/embed/Rm5ExZqR#vuTRVfr1ShDnKMkp5n7Ma_RfY-NxYqmYyTtDJJ7yVSg'
             },
             {
                 number: 196,
                 title: 'La optimización de la empatía',
                 release: '14.1.16',
-                link: ''
+                link: 'https://mega.nz/embed/83xxGJJa#5QUyyZDnmoeiTuJ_GJ4JCcQi1SNQfxPUdxfm-WNe_Mk'
             },
             {
                 number: 197,
                 title: 'La materialización de la abuelita',
                 release: '4.2.16',
-                link: ''
+                link: 'https://mega.nz/embed/ZqAEkahB#-VCLuDy93kqmB_r1itM-b5rUEDYw4RpU8gMHLDZfcMM'
             },
             {
                 number: 198,
                 title: 'La inmersión de Valentino',
                 release: '11.2.16',
-                link: ''
+                link: 'https://mega.nz/embed/hioBRQIA#EhgDpYkBL_MlcVeDsGIn-NzCk4624_hrHpM0QCVT3ys'
             },
             {
                 number: 199,
                 title: 'La reacción Positivo-Negativa',
                 release: '18.2.16',
-                link: ''
+                link: 'https://mega.nz/embed/5jhQSbxI#vJqca2FMBEKVYsOlzempgGh8G49j9L8sXxzbtCW2Jng'
             },
             {
                 number: 200,
                 title: 'La experimentación de la celebración',
                 release: '25.2.16',
-                link: ''
+                link: 'https://mega.nz/embed/BqYDDagD#ZOCaT6i9tzDL3wvxZ3P2V5oXd_6WlAIeAkqP4rGjHis'
             },
             {
                 number: 201,
                 title: 'El deterioro de la soledad',
                 release: '10.3.16',
-                link: ''
+                link: 'https://mega.nz/embed/VmI2xQ4b#NKO7NsURwgkW1yNuxj802400vHewpTagvHntPHB_6Mc'
             },
             {
                 number: 202,
                 title: 'La excursión a por soldadura',
                 release: '31.3.16',
-                link: ''
+                link: 'https://mega.nz/embed/925i1I5R#h90Ymqzrl2KRjvwcxQfnEPgkeWHU1DCZvcmvcZKvdiI'
             },
             {
                 number: 203,
                 title: 'La precipitación del oso gigante',
                 release: '7.4.16',
-                link: ''
+                link: 'https://mega.nz/embed/9341XK6S#XjtZ2r11qF4-M-UQvJJ4DaLmOIqhvMvbQq0siOw2rwc'
             },
             {
                 number: 204,
                 title: 'La combustión de la fiesta televisiva',
                 release: '21.4.16',
-                link: ''
+                link: 'https://mega.nz/embed/lvZEwJxQ#KtKLzE4OKdJjrBNVgzHOsUXWBD4ct4U_B9HTcoFjT2Y'
             },
             {
                 number: 205,
                 title: 'La fermentación de la bifurcación',
                 release: '28.4.16',
-                link: ''
+                link: 'https://mega.nz/embed/hvgTzIST#oyIm5aeeNyPgPFlnmw58W4fXCEgHUxBYrDCxjENHzTM'
             },
             {
                 number: 206,
                 title: 'La solución de la sustitución en la cola',
                 release: '5.5.16',
-                link: ''
+                link: 'https://mega.nz/embed/wrhDlRYD#F1zqvGBDdsvP5ue8pTjOw9TbCXPLmqJPEoA1u3A8yIs'
             },
             {
                 number: 207,
                 title: 'La convergencia de la convergencia',
                 release: '12.5.16',
-                link: ''
+                link: 'https://mega.nz/embed/0yAWnDaT#RE-Bk_PJeSMm6qwAEmWaLcaWzhiggVhEzPfNL5SK5Ak'
             }
-        */]
+        ]
     },
     {
         number: 10,
@@ -1350,152 +1350,152 @@ export const seasons: Season[] = [
         start: '19.9.16',
         end: '11.5.17',
         nEpisodes: 24,
-        episodes: [/*
+        episodes: [
             {
                 number: 208,
                 title: 'La conjetura conyugal',
                 release: '19.9.16',
-                link: ''
+                link: 'https://mega.nz/embed/gj4zgSwT#R92BzEX-NftYWmCBHTB46H3bl3PATPRBpMzOx_D4TsA'
             },
             {
                 number: 209,
                 title: 'La miniaturización militar',
                 release: '26.9.16',
-                link: ''
+                link: 'https://mega.nz/embed/Qi51nAxJ#diUkm8Ih3Y34meWoIj67EekxhjE5A21lO1uxMTucX2s'
             },
             {
                 number: 210,
                 title: 'La transcendencia de la dependencia',
                 release: '3.10.16',
-                link: ''
+                link: 'https://mega.nz/embed/hjpl3KDA#51oD6lLDFAHuJVfRcgengxGagjFL0aNSRRX2R7dKt8U'
             },
             {
                 number: 211,
                 title: 'La experimentación de la cohabitación',
                 release: '10.10.16',
-                link: ''
+                link: 'https://mega.nz/embed/Ui5VDIYb#e-oZFrwc6aoc6eSYbtkE9JSnaxc2en8dUFmie-OGbJ0'
             },
             {
                 number: 212,
                 title: 'La contaminación del jacuzzi',
                 release: '17.10.16',
-                link: ''
+                link: 'https://mega.nz/embed/IvpV0IYD#EF38MyLbvJL8jRImN5p61nUN2IJWefZtZfx9VdyXf4Q'
             },
             {
                 number: 213,
                 title: 'El catalizador de la patada fetal',
                 release: '27.10.16',
-                link: ''
+                link: 'https://mega.nz/embed/o2pz0YAA#Z2CdSULv2oBHCdoOPaRespoCaZLhZK-pCBi5P9bsrHk'
             },
             {
                 number: 214,
                 title: 'La elasticidad de la veracidad',
                 release: '3.11.16',
-                link: ''
+                link: 'https://mega.nz/embed/J751QIrY#J5t99HIQJy0vG2Fi1Gj-MUP0BBcna_HBKOE2oZl51Cw'
             },
             {
                 number: 215,
                 title: 'La incubación del cuenco del cerebro',
                 release: '10.11.16',
-                link: ''
+                link: 'https://mega.nz/embed/BzpV1ayD#VkvnhbNwT9Utu-LhzlvBdQhW_wzxwV7IadP-fCKax-4'
             },
             {
                 number: 216,
                 title: 'La elevación de la geología',
                 release: '17.11.16',
-                link: ''
+                link: 'https://mega.nz/embed/x6ghkKba#y0aOAVfYACKDcr2iKd8eptH8Q6YnFw34sud8u81E4Eo'
             },
             {
                 number: 217,
                 title: 'La colisión de la división de la propiedad',
                 release: '1.12.16',
-                link: ''
+                link: 'https://mega.nz/embed/wr412C6C#YAnPRFzRgnAUKrte6zQv8gbfPfoipgtazZlXJFCr_Zc'
             },
             {
                 number: 218,
                 title: 'La sincronicidad del cumpleaños',
                 release: '15.12.16',
-                link: ''
+                link: 'https://mega.nz/embed/c2wHFAja#52dr1_BIoEE-oBhzsF0i8EhRWRw73uTckdeIl0Xpwrw'
             },
             {
                 number: 219,
                 title: 'El resumen de las fiestas',
                 release: '5.1.17',
-                link: ''
+                link: 'https://mega.nz/embed/R3xBVI7Y#xBo44RKVxCE7H1YS-AUa7iv3FwcN012XovCywLAnkzc'
             },
             {
                 number: 220,
                 title: 'La recalibración del romance',
                 release: '19.1.17',
-                link: ''
+                link: 'https://mega.nz/embed/li4DAICC#1eh-2Mwt5use3rj2L70A4N6rqjdM89xpmxJoiYJ8JsY'
             },
             {
                 number: 221,
                 title: 'La automatización de la detección de emociones',
                 release: '2.2.17',
-                link: ''
+                link: 'https://mega.nz/embed/ZrpRRCbT#Zdi0nJvQkRZ2u0WKtVnuqUnuuoP--hiEHlxWcjCNLRY'
             },
             {
                 number: 222,
                 title: 'La reverberación locomocional',
                 release: '9.2.17',
-                link: ''
+                link: 'https://mega.nz/embed/0uwnFILB#T8D2s7SqgrZ81MrbmZeDpo85r_ZAdZ95aSyhOY-gNbQ'
             },
             {
                 number: 223,
                 title: 'La evaporación del permiso',
                 release: '16.2.17',
-                link: ''
+                link: 'https://mega.nz/embed/sj5FRQgB#PjFVSOb20hENCp_blvbYNUfbcXh78Y8UbqxjNXwZnTY'
             },
             {
                 number: 224,
                 title: 'El enigma de la Comic-Con',
                 release: '23.2.17',
-                link: ''
+                link: 'https://mega.nz/embed/xywTFSZR#tPGMMgcGAK92rMk9dDmNKXW8GMmtvajE7LVChlXyT6E'
             },
             {
                 number: 225,
                 title: 'La identificación de la escotilla de escape',
                 release: '9.3.17',
-                link: ''
+                link: 'https://mega.nz/embed/5ngFFaxK#UYFnbedrbgbrm1Ta7ufTrwOLvgE9HSxvpL76h5f3ZJA'
             },
             {
                 number: 226,
                 title: 'La fluctuación de la colaboración',
                 release: '30.3.17',
-                link: ''
+                link: 'https://mega.nz/embed/R2pmgCpa#WSFzb65VWxb_yYPTuU5lro2uF5INIoSqJBHRjZe014E'
             },
             {
                 number: 227,
                 title: 'La disipación de los recuerdos',
                 release: '6.4.17',
-                link: ''
+                link: 'https://mega.nz/embed/Zngy2YIJ#vTG6AQETsmn-4uiI3PUVwVVkTYzQs-SSA-pv7DlwA4s'
             },
             {
                 number: 228,
                 title: 'La agitación de la separación',
                 release: '13.4.17',
-                link: ''
+                link: 'https://mega.nz/embed/Q65wGKqL#HCRW2wuu4CNx1Sxv4NDxYQdMw8P2P48nkSSmTlS4vZ0'
             },
             {
                 number: 229,
                 title: 'La regeneración cognitiva',
                 release: '27.4.17',
-                link: ''
+                link: 'https://mega.nz/embed/JuwWDSzL#9gfwq9bPC8GvBqt_euCf8OosXzFNBSZ_bKhbG8TJZ0I'
             },
             {
                 number: 230,
                 title: 'El colapso giroscópico',
                 release: '4.5.17',
-                link: ''
+                link: 'https://mega.nz/embed/ZixgDKrD#xZvTgDljFy4YwHEL2-g_bUkoTP86AgtmIhT0p-x2EKg'
             },
             {
                 number: 231,
                 title: 'La disonancia de larga distancia',
                 release: '11.5.17',
-                link: ''
+                link: 'https://mega.nz/embed/djxwSSKb#QHsCsvUZiZ0xqt8m2LCQ_HUTVXhQOa11pMgtExjanjE'
             }
-        */]
+        ]
     },
     {
         number: 11,
@@ -1505,152 +1505,152 @@ export const seasons: Season[] = [
         start: '25.9.17',
         end: '10.5.18',
         nEpisodes: 24,
-        episodes: [/*
+        episodes: [
             {
                 number: 232,
                 title: 'La propuesta de propuesta',
                 release: '25.9.17',
-                link: ''
+                link: 'https://mega.nz/embed/9q5UWSYQ#nSi-AYlJeQrWRrjEzT_lSkPsRVb3rddRzcqosNCc1v0'
             },
             {
                 number: 233,
                 title: 'La reacción de la retracción',
                 release: '2.10.17',
-                link: ''
+                link: 'https://mega.nz/embed/8q4yAaSZ#-sndlxpX5WSn0rnmoff4wvqbFSfoTM-vWOZTlvxg1Do'
             },
             {
                 number: 234,
-                title: 'La integración de la relajación[',
+                title: 'La integración de la relajación',
                 release: '9.10.17',
-                link: ''
+                link: 'https://mega.nz/embed/F3oEXQaI#FHJcExlwIHf6yW_03_Xi7dPyzFOi4OBYDJyTnVP9jc0'
             },
             {
                 number: 235,
                 title: 'La implosión de la explosión',
                 release: '16.10.17',
-                link: ''
+                link: 'https://mega.nz/embed/ZygWWY6L#78I2EMfjzM4vasM4Cc6PAOa620RUBniyiMq-wrXOks4'
             },
             {
                 number: 236,
                 title: 'La contaminación de la colaboración',
                 release: '23.10.17',
-                link: ''
+                link: 'https://mega.nz/embed/Q34mEYZa#3-u7LdPqoN9Y38n9Z9k8WbqaA8wwmLgn1wWANAJn4aY'
             },
             {
                 number: 237,
                 title: 'La regeneración de protones',
                 release: '2.11.17',
-                link: ''
+                link: 'https://mega.nz/embed/dj5gxSzZ#AJ8epmYgRfsOm7JEU3zWbMgoNamvvwTg3QApxaUOnSo'
             },
             {
                 number: 238,
-                title: 'La metodología geológica[',
+                title: 'La metodología geológica',
                 release: '9.11.17',
-                link: ''
+                link: 'https://mega.nz/embed/pjwgAAaZ#5uuWNvsIvTy6_jI02PJ9g8_OkeegzcKVqtRyf0bG1tc'
             },
             {
                 number: 239,
                 title: 'El retroceso de Tesla',
                 release: '16.11.17',
-                link: ''
+                link: 'https://mega.nz/embed/Qu40TIRa#15ozNNXE1oQDAF03cYtihy1YcLlaQ5Gf36RAFhN600w'
             },
             {
                 number: 240,
                 title: 'El enredo del Bitcoin',
                 release: '30.11.17',
-                link: ''
+                link: 'https://mega.nz/embed/UzpAFAhA#60CkKeSENxiYNGJ8MJRvT5FlXG4ucLWcIrm0bGuLIqk'
             },
             {
                 number: 241,
                 title: 'La erosión de la confianza',
                 release: '7.12.17',
-                link: ''
+                link: 'https://mega.nz/embed/FjwQDARA#MpleHiJ9PITmlWHXsx5Cmv9Cnj_hZNq4Kp9P0_Vwg7Y'
             },
             {
                 number: 242,
                 title: 'La reverberación de la celebración',
                 release: '14.12.17',
-                link: ''
+                link: 'https://mega.nz/embed/prpA1KxB#GHGiZfMWGMRtABHsKhIdvDYfD0ODhjJ9hGHeE9s1OA8'
             },
             {
                 number: 243,
-                title: 'La métrica matrimonial[',
+                title: 'La métrica matrimonial',
                 release: '4.1.18',
-                link: ''
+                link: 'https://mega.nz/embed/wnxG2YTJ#Y3BTUnMs-_QPb-h4TgU0-sr4EXdkuoboDCR4R9waZOI'
             },
             {
                 number: 244,
                 title: 'La oscilación Solo',
                 release: '11.1.18',
-                link: ''
+                link: 'https://mega.nz/embed/025UEIgL#QJY_G8C2mrQd5h5qSdRtqQ38IT0ARp4TffpA5ruWJfM'
             },
             {
                 number: 245,
-                title: 'La triangulación de la separación[',
+                title: 'La triangulación de la separación',
                 release: '18.1.18',
-                link: ''
+                link: 'https://mega.nz/embed/Ym5UjCiC#o8kDtzgpWnlxb2OAjKqJMeglz858oQrhHO4uKKZYxXg'
             },
             {
                 number: 246,
                 title: 'La correlación de la novela',
                 release: '1.2.18',
-                link: ''
+                link: 'https://mega.nz/embed/VnhAVKqL#NrgJx-mfaIgbT8M1VEJVL3_poKaQ1qgYXeAClUrlvWc'
             },
             {
                 number: 247,
-                title: 'La nomenclatura neonatal[',
+                title: 'La nomenclatura neonatal',
                 release: '1.3.18',
-                link: ''
+                link: 'https://mega.nz/embed/5qxwCa6Z#O_lE1HXdoq2FfWXoomB6z6XgKtHnlDEY2e2AODnY3-I'
             },
             {
                 number: 248,
-                title: 'La reserva del Ateneo[',
+                title: 'La reserva del Ateneo',
                 release: '8.3.18',
-                link: ''
+                link: 'https://mega.nz/embed/UmhShQ6I#YuzEfSRWEl2x0nnfDv9kWuaRrHLCVupVL0T7fE0QDUQ'
             },
             {
                 number: 249,
                 title: 'La excitación por Bill Gates',
                 release: '29.3.18',
-                link: ''
+                link: 'https://mega.nz/embed/VnwQiYCB#sz8wFz0NgBsBI5J5bbuDTwY8Qjg5KrCpTWWcN5lq_eM'
             },
             {
                 number: 250,
                 title: 'La disociación del inquilino',
                 release: '5.4.18',
-                link: ''
+                link: 'https://mega.nz/embed/Y3hSFSzK#9aIgulnicpqFoU1M5J5Vbjyt0FyH1lRZEIOitOITD-s'
             },
             {
                 number: 251,
                 title: 'El potencial solitario',
                 release: '12.4.18',
-                link: ''
+                link: 'https://mega.nz/embed/gvhGVSYL#wRxpl0U5d7dh7tEeeobeYJUIC8iUd-oCS-Z938a2GHc'
             },
             {
                 number: 252,
                 title: 'La polarización del cometa',
                 release: '12.4.18',
-                link: ''
+                link: 'https://mega.nz/embed/RvgyxQbS#6CKOmkfuBbg3lnfL6t7obZNNhISvu1o6E62uRzq9aTc'
             },
             {
                 number: 253,
                 title: 'La insuficiencia monetaria',
                 release: '26.4.18',
-                link: ''
+                link: 'https://mega.nz/embed/06oWTKBJ#jeUvrbH1ToIPJqTaWAR8KCGOz8v3K4W0J5J9TIc7wrc'
             },
             {
                 number: 254,
                 title: 'La realineación fraternal',
                 release: '3.5.18',
-                link: ''
+                link: 'https://mega.nz/embed/U25ADCKY#iWsu17nn2gt8etMfw2T_cgIe7Vss6mXqSW4LluSvp44'
             },
             {
                 number: 255,
                 title: 'La asimetría de la pajarita',
                 release: '10.5.18',
-                link: ''
+                link: 'https://mega.nz/embed/Vigm0YRY#ugqa_TbrO80Nqcgg4bqy_7TNf3C24h4kmsxrJew8gH8'
             }
-        */]
+        ]
     },
     {
         number: 12,
@@ -1660,151 +1660,145 @@ export const seasons: Season[] = [
         start: '24.9.18',
         end: '16.5.19',
         nEpisodes: 24,
-        episodes: [/*
+        episodes: [
             {
                 number: 256,
                 title: 'La configuración conyugal',
                 release: '24.9.18',
-                link: ''
+                link: 'https://mega.nz/embed/MyxXFS6B#0jRKDi9jgcnp-bhveKDGCGB_OeYYz2_aHqUzM5pIedM'
             },
             {
                 number: 257,
                 title: 'El obsequio de bodas del agujero de gusano',
                 release: '27.9.18',
-                link: ''
+                link: 'https://mega.nz/embed/k6pDAYQb#FywctHZGfczRunogie2pSPjGptG9fKl6oj2wdmY59IM'
             },
             {
                 number: 258,
                 title: 'El cálculo de la procreación',
                 release: '4.10.18',
-                link: ''
+                link: 'https://mega.nz/embed/QjwxQCoa#NWQ_ViTzGboTixV3AT7AltliMM2fkbifVeNovTrGShY'
             },
             {
                 number: 259,
                 title: 'La turbulencia Tam',
                 release: '11.10.18',
-                link: ''
+                link: 'https://mega.nz/embed/J2hnTCxC#AAFOLLx7hlZ8UdSovjoE9dXbIclbluFW3LMwLXm-m8U'
             },
             {
                 number: 260,
                 title: 'La colisión del planetario',
                 release: '18.10.18',
-                link: ''
+                link: 'https://mega.nz/embed/9zhxECbL#rmTRUXCKqZuXfqOvA165Qw7TGyyjCwBaC1y3NFnbQvA'
             },
             {
                 number: 261,
                 title: 'La perturbación de la imitación',
                 release: '25.10.18',
-                link: ''
+                link: 'https://mega.nz/embed/xqo3SSQS#l8hXBTgXiZnvJb1AKKS9x4BXGkdYlqYiiajyiIBfL80'
             },
             {
                 number: 262,
                 title: 'La derivación de la asignación de fondos',
                 release: '1.11.18',
-                link: ''
+                link: 'https://mega.nz/embed/0v5lHAaa#Y5nKuNNAVB_T-915lgwEgNCedwtoifzRlR_kGRhyu2k'
             },
             {
                 number: 263,
                 title: 'La desviación de la consumación',
                 release: '8.11.18',
-                link: ''
+                link: 'https://mega.nz/embed/typzEYzD#AfwehmLQ8WZdJcOtoKvswu-JhiyTQKY9oZ8aHn-oIAM'
             },
             {
                 number: 264,
                 title: 'La referencia de refutación',
                 release: '15.11.18',
-                link: ''
+                link: 'https://mega.nz/embed/w7pxAaqA#ijeEjhWv8VSXM5N2dpYgEwErflIMGHCye2CilY2nWCo'
             },
             {
                 number: 265,
                 title: 'La iluminación de la videocasetera',
                 release: '6.12.18',
-                link: ''
+                link: 'https://mega.nz/embed/YmgHRahC#6NL1kdYxznNSSDXDrPCKuzPXo0y8RZN4P5YRgQa3tKw'
             },
             {
                 number: 266,
                 title: 'La dispersión del paintball',
                 release: '3.1.19',
-                link: ''
+                link: 'https://mega.nz/embed/JmoxgaDb#JfIkVP3Sz_f2r4Q2KjP1Yh0KJuLa7ccyBsIaPwWX-XE'
             },
             {
                 number: 267,
                 title: 'La proposición de la propagación',
                 release: '10.1.19',
-                link: ''
+                link: 'https://mega.nz/embed/h3pBTISb#CStJvIsQWq-2Oztr6y8JwPpBFKRhcZLbf7Wb8mU41O8'
             },
             {
                 number: 268,
                 title: 'La confirmación de la polarización',
                 release: '17.1.19',
-                link: ''
+                link: 'https://mega.nz/embed/Rr4RiSia#fwzu8OtIKrgBYPYsDCw5qnUwtIlVyJGmY9AHO7ymBOc'
             },
             {
                 number: 269,
                 title: 'La manifestación del meteorito',
                 release: '31.1.19',
-                link: ''
+                link: 'https://mega.nz/embed/Evxl3IjK#lbXNI6k_UuvDI0TlKWHMTlgFfRuwPVnqw5vLgGYv_kA'
             },
             {
                 number: 270,
                 title: 'La oscilación de la donación',
                 release: '7.2.19',
-                link: ''
+                link: 'https://mega.nz/embed/NmwRwaRI#URM1-XCIb6CtHngsfk_TvdubdBDvVcq1RuWjg5U6Ah0'
             },
             {
                 number: 271,
                 title: 'El vórtice de calabozos y dragones',
                 release: '21.2.19',
-                link: ''
+                link: 'https://mega.nz/embed/ZvoBnA6Q#BTu5DOkSc6Uhnfk3BPX_qxAu-vpDaNIdtDvIJh9qjps'
             },
             {
                 number: 272,
                 title: 'La valoración de la conferencia',
                 release: '7.3.19',
-                link: ''
+                link: 'https://mega.nz/embed/cyhxSIKY#hW82JpQLQCcP5JkxhukEkqJ4kXCMBiPJl9Xx_3AOkho'
             },
             {
                 number: 273,
                 title: 'La acumulación de premiados',
                 release: '4.4.19',
-                link: ''
+                link: 'https://mega.nz/embed/02pjAChL#psmbbuuELveOQgOQARoc_bc6FSeH7JAeNWMuCS0DJvY'
             },
             {
                 number: 274,
                 title: 'La privación de la inspiración',
                 release: '18.4.19',
-                link: ''
+                link: 'https://mega.nz/embed/MnolUY5I#lByp1BTllugBTueYF3_z5KDSxFnyu40tJETNZ5fVKV8'
             },
             {
                 number: 275,
                 title: 'La reverberación de la decisión',
                 release: '25.4.19',
-                link: ''
+                link: 'https://mega.nz/embed/RjoxDSpI#1Ztstpo4_j9tA04iu6k6swReHbmKcihmihvnn1Q7Gag'
             },
             {
                 number: 276,
                 title: 'El cisma del plagio',
                 release: '2.4.19',
-                link: ''
+                link: 'https://mega.nz/embed/EjgFXQzT#zZcx-eEEjOMxZwOA7N6TOYqUqj2xDq9QrCSkBpsZ73c'
             },
             {
                 number: 277,
                 title: 'La conclusión maternal',
                 release: '9.5.19',
-                link: ''
+                link: 'https://mega.nz/embed/xvp1AIhJ#iO-QW8ZZeV_HFdTswQLpIFISVZOXqTLyJtLFP910ybA'
             },
             {
-                number: 278,
-                title: 'El cambio constante',
+                number: 278.279,
+                title: 'El cambio constante — El síndrome de Estocolmo',
                 release: '16.5.19',
-                link: ''
-            },
-            {
-                number: 279,
-                title: 'El síndrome de Estocolmo',
-                release: '16.5.19',
-                link: ''
+                link: 'https://mega.nz/embed/dihxzI7J#vlQ3tB6kHBMnBdIPoTaFgeG5Xergh16wrn0siwYVPIQ'
             }
-        */]
+        ]
     }
 ]
