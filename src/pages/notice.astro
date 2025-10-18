@@ -1,0 +1,16 @@
+---
+import { name } from '../data';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout page={`Aviso Legal - ${name}`}>
+    <div slot="nav" class="w-full flex flex-col items-center gap-5">
+        <h1 class="font-mono font-semibold uppercase tracking-tight text-center text-lg">Aviso Legal</h1>
+
+        <article class="space-y-2 font-medium text-pretty text-sm text-base-950 *:md:max-w-[45ch]">
+            <p>Este sitio web no es oficial ni está afiliado de ninguna manera con los creadores, productores o distribuidores de <i>The Big Bang Theory</i>. Todos los derechos de la serie, sus personajes, nombres y material relacionado pertenecen a sus respectivos propietarios.</p>
+            <p>El contenido aquí mostrado tiene fines informativos y de conveniencia para los usuarios; no implica fines comerciales directos ni lucro derivado del contenido protegido. No se reclama propiedad intelectual sobre ningún material protegido por derechos de autor.</p>
+            <p>Si eres titular de derechos y consideras que se está vulnerando tu propiedad intelectual, por favor contacta <em class="font-medium">(estrada.flsw@gmail.com)</em> para solicitar la corrección o eliminación del material correspondiente.</p>
+        </article>
+    </div>
+</Layout>
