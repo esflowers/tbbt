@@ -51,7 +51,7 @@ const next = index < seasons.length - 1 ? seasons[index + 1] : null;
 	</nav>
 
 	<div slot="article" class="space-y-2 text-sm order-2">
-		<p set:html={season.description} class="font-medium text-base-950"></p>
+		<div set:html={season.description} class="space-y-2 font-medium text-base-950"></div>
 		<br>
 		<div class="space-y-1.5 text-base-900">
 			<InfoLine title='Episodios'>
