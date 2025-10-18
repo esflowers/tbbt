@@ -3,31 +3,13 @@ import type { Link } from "../types"
 export const name = 'the BiG BANG THEORY'
 export const tagline = 'Sitcom estadounidense'
 export const title= 'The Big Bang Theory. Sitcom. Serie en Español Latino.'
-export const description = 'The Big Bang Theory es una comedia de situación estadounidense creada por Chuck Lorre y Bill Prady, quienes se desempeñaron como productores ejecutivos y escritores principales de la serie, junto con Steven Molaro.'
+export const description = 'The Big Bang Theory es una comedia de situación estadounidense creada por Chuck Lorre y Bill Prady, quienes se desempeñaron como productores ejecutivos y escritores principales de la serie, junto con Steven Molaro. Este no es un sitio oficial.'
 export const preview = 'https://tbbt.esflowers.icu/preview.png'
-
-export const creator: Link = {
-    title: 'esflowers',
-    link: 'https://esflowers.icu/',
-    label: 'Creador de este sitio web'
-}
 
 export const site: Link = {
     title: name,
     link: 'https://tbbt.esflowers.icu',
     label: 'tbbt.esflowers.icu'
-}
-
-export const repository: Link = {
-    title: 'GitHub',
-    link: 'https://github.com/esflowers/tbbt',
-    label: 'Aporta una estrella'
-}
-
-export const bmc: Link = {
-    title: 'Buy Me a Coffee',
-    link: 'https://coff.ee/esflowers_',
-    label: 'Contribuye'
 }
 
 export const wiki: Link = {

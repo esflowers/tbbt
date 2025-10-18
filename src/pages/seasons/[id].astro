@@ -1,5 +1,5 @@
 ---
-import { name, bmc, repository } from '../../data';
+import { name } from '../../data';
 import { seasons } from '../../data/seasons';
 import Layout from '../../layouts/Layout.astro';
 import Button from '../../components/Button.astro';
@@ -65,14 +65,6 @@ const next = index < seasons.length - 1 ? seasons[index + 1] : null;
 			</InfoLine>
 		</div>
 		<br>
-		<div class="w-full flex items-center gap-3">
-			<Button text={bmc.label!} link={bmc.link} type='block' title={bmc.title} target='_blank'>
-				<IconCoffee slot='r' size='15' className='min-w-[15px] ml-auto transition duration-200 group-hover:scale-105' />
-			</Button>
-			<Button text={repository.title} link={repository.link} type='block' title={repository.label} target='_blank'>
-				<IconStar slot='r' size='15' className='min-w-[15px] ml-auto transition duration-200 group-hover:scale-105' />
-			</Button>
-		</div>
 	</div>
 
 	{season.episodes.length > 0 ? 
